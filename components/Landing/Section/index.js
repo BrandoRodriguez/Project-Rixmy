@@ -24,9 +24,9 @@ function Section({ data }) {
                 
                 <section className={styles[section_name]} data-aos="fade-up" data-aos-duration="2500" data-aos-once="true">
 
-                    {data.section && 
+                    {/* {data.section && 
                         <Image src="img/items/logo2.svg" alt='logo2' />
-                    }
+                    } */}
                     <span>{data.section.toUpperCase()}</span>
 
                 </section>

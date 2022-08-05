@@ -20,8 +20,8 @@ function Article({ article }) {
                             <span className={styles.date}>
                                 20 <small>may</small>
                             </span>
-                            <img src={imageUrl} alt="featured img">
-                            </img>
+                            {/* <img src={imageUrl} alt="featured img">
+                            </img> */}
                         </a>
                     </Link>
 
@@ -38,7 +38,7 @@ function Article({ article }) {
                     <Link href={link_article}>
                         <a className={styles.read_more}>
                             <span>
-                                <img src="img/blog/arrow-right-white.png" alt="arrow" />
+                                {/* <img src="img/blog/arrow-right-white.png" alt="arrow" /> */}
                             </span>
                         </a>
                     </Link>
