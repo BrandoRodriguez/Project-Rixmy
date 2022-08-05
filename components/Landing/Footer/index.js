@@ -3,10 +3,10 @@ import styles from './styles.module.css'
 function Footer() {
     return (
         <footer className={styles.footer}>
-            <section>
-                <img src="img/items/logo3.png" />
-            </section>
-            <section>
+            <div>
+                {/* <img src="img/items/logo3.png" /> */}
+            </div>
+            <div>
                 <ul>
                     <li>
                         <a href="#">
@@ -132,7 +132,7 @@ function Footer() {
                     </li>
                 </ul>
                 <p>© 2022 Rixmy. All rights reserved</p>
-            </section>
+            </div>
         </footer>
 
     )
