@@ -58,11 +58,22 @@ function Nav() {
   return (
     <>
       <nav className={styles.navigation}>
-        <Image className="logo" src="/img/logo.svg" alt='logo' width={90} height={135}/>
+        <img
+          className={styles.logo} 
+          src="/img/logo.svg" 
+          alt='logo' 
+          width={90} 
+          height={135}
+        />
         <ul>
           <li>
             <a href="#" className={styles.lenguage}>
-              {/* <img src="/img/es.PNG" alt='languaje' width={22} height={15}/> */}
+              <img 
+                src="/img/es.PNG" 
+                alt='languaje' 
+                width={22} 
+                height={15}
+              />
               <svg
                 className="svg-inline--fa fa-caret-right"
                 aria-hidden="true"
