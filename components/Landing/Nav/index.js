@@ -58,7 +58,7 @@ function Nav() {
     <>
       <nav className={styles.navigation}>
         {/* <Image className="logo" src="/img/logo.svg" alt='logo' width={90} height={135}/> */}
-        {/* <img className={styles.logo} src="/img/logo.svg" alt='logo' width={90} height={135}/> */}
+        <img className={styles.logo} src="/img/logo.svg" alt='logo' width={90} height={135}/>
         <ul>
           <li>
             <a href="#" className={styles.lenguage}>
