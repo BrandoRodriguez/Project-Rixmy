@@ -1,0 +1,109 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+/* 
+
+1) Configuración general
+2) Nav
+3) Video
+4) About Us
+5) Services
+6) Our Work
+7) News
+8) Work with us
+9) Footer
+
+******************************
+** 1) Configuración general **
+******************************/
+
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  :after,:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  :root {
+    --red: #E03138;
+    --white: #fff;
+    --black: #000;
+    --gray: #1a1a1a;
+  }
+  
+  html {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    line-height: 1.6em;
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    background: var(--red);
+    overflow-x: hidden;
+    font-family: system-ui;
+  }
+  
+  ::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: var(--gray);
+  }
+  
+  a {
+    outline: none;
+    text-decoration: none;
+  }
+  
+  a a:focus, a:hover {
+    text-decoration: none;
+  }
+  
+  a:focus {
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px;
+  }
+  
+  img {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    user-select: none;
+    -webkit-user-drag: none;
+  }
+  
+  form, fieldset, legend {
+    margin: 0;
+    padding: 0;
+    border: none;
+  }
+  
+  label, input, textarea, select, button {
+    display: inline; 
+    resize: none; 
+    outline: none; 
+    vertical-align: middle;
+  }
+  
+  body > div {
+    padding-left: 90px;
+  }
+
+  @media (max-width: 768px) {
+    body > div {
+      padding-left: 0;
+    }
+  }

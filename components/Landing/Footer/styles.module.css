@@ -1,0 +1,70 @@
+/*****************************
+  ********* 9) Footer **********
+  *****************************/
+  
+  .footer {
+    position: relative;
+    background: var(--white);
+    width: 100%;
+    padding: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    color: var(--red);
+  }
+  
+  .footer section:first-child {
+    width: 15%;
+  }
+  
+  .footer section:nth-child(2n) {
+    width: 85%;
+    padding-left: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+  }
+  
+  .footer ul:first-child {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    font-size: 25px;
+  }
+  
+  .footer ul:nth-child(2n) {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    gap: 9px;
+    margin: 15px 0;
+    font-size: 12px;
+  }
+  
+  .footer a {
+    color: var(--red);
+  }
+  
+  .footer ul hr {
+    background: var(--red);
+    border: none;
+    width: 1px;
+  }
+  
+  @media (max-width: 768px) {
+    .footer section:first-child {
+      width: 50%;
+    }
+    .footer ul:first-child {
+      margin: 25px 0;
+    }
+    .footer section:nth-child(2n), .footer ul:nth-child(2n) {
+      width: 100%;
+      justify-content: space-around;
+      font-size: 13px;
+    }
+    
+  }

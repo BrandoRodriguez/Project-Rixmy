@@ -1,0 +1,46 @@
+.blog_section {
+    position: relative;
+    overflow: hidden;
+    background: url(/img/blog/project-bg.jpg) no-repeat center center/cover;
+    /* background: #141519; */
+    padding: 120px 15px 120px;
+}
+
+.blog_section:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(20, 21, 25, 0.90);
+}
+
+.blog_wrapper {
+    position: relative;
+    z-index: 2;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+@media (min-width: 1024px) {
+    .blog_wrapper {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+    }
+
+    .container {
+        max-width: 1280px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .container {
+        max-width: 1280px;
+    }
+}
+
