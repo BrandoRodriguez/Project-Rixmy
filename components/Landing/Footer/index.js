@@ -4,7 +4,7 @@ function Footer() {
     return (
         <footer className={styles.footer}>
             <div>
-                {/* <img src="img/items/logo3.png" /> */}
+                <img src="img/items/logo3.png" />
             </div>
             <div>
                 <ul>
