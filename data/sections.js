@@ -9,7 +9,7 @@ export const sections = [
         description: 'Nuestros servicios se adecúan a la actualidad y parten de los pilares fundamentales de Inbound Marketing. El objetivo de Rixmy es que tu empresa a través de estrategias inteligentes, tenga la capacidad de atraer, convertir, cerrar y deleitar a tus clientes.',
         anchor: 'WELCOME TO RIXMY',
         class: 'red_bottom_right',
-        background: 'nosotros.png',
+        background: 'nosotros.jpg',
         position: 'top'
     },
     // {
