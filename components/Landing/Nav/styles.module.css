@@ -41,12 +41,14 @@
 }
 
 .navigation .contact a {
+  font-family: "Montserrat-SemiBold";
   width: max-content;
   display: flex;
+  letter-spacing: .1rem;
   position: relative;
-  left: -20px;
+  left: -48px;
   font-weight: 600;
-  font-size: 20px;
+  font-size: 22px;
   text-align: center;
   transform: rotate(-90deg);
 }
@@ -54,7 +56,6 @@
 .navigation .logo {
   position: relative;
   margin: 3% 0;
-  height: 14%;
 }
 
 #menuNav {

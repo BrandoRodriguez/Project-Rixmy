@@ -18,7 +18,7 @@
   position: relative;
   justify-content: center;
   padding-left: 20px;
-  padding-right: 20px;
+  padding-right: 60px;
 }
 
 .article>div>section:first-child {
@@ -41,13 +41,13 @@
 
 .article span {
   font-family: "Montserrat-Medium";
-  font-size: 16px;
+  font-size: 14px;
+  letter-spacing: .1rem;
 }
 
 .article h1 {
   font-size: 36px;
   line-height: 45px;
-  width: 100%;
   margin: 25px 0;
   text-transform: uppercase;
   font-family: "Montserrat-Black";
@@ -55,7 +55,6 @@
 
 .article p {
   font-family: "Montserrat-Regular";
-  width: 80%;
   font-size: 13px;
   line-height: 20px;
   color: rgb(255, 255, 255, .9);
@@ -187,18 +186,7 @@
 }
 
 
-
-
-.barra {
-  height: 200px;
-  width: 100%;
-  background: red;
-}
-
-
-
-
-/* Estilo 1 */
+/* style 1 */
 .red_bottom_right::after {
   content: '';
   position: absolute;
@@ -219,7 +207,7 @@
   bottom: 0;
 }
 
-.content::after {
+.container::after {
   content: '';
   position: absolute;
   width: 61px;
@@ -229,8 +217,6 @@
   bottom: 34px;
   right: 34px;
 }
-
-/* stilo */
 
 @media (min-width: 1024px) {
   .red_bottom_right::after {
@@ -243,11 +229,31 @@
     height: 150px;
   }
 
-  .content::after {
+  .container::after {
     width: 200px;
     height: 200px;
     -webkit-mask-image: radial-gradient(circle 10px at 0 0, transparent 0, transparent 170px, black 60px);
     bottom: 120px;
     right: 170px;
   }
+
+
+  .content {
+    width: 60%;
+    padding-left: 50px;
+  }
+
+  .article h1 {
+    font-size: 62px;
+    line-height: 68px;
+    margin: 25px 0;
+  }
+
+  .article p {
+    font-size: 16px;
+    line-height: 25px;
+  }
+
 }
+
+/*------------------*/
