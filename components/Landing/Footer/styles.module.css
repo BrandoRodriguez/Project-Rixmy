@@ -55,7 +55,7 @@
 }
 
 @media (max-width: 768px) {
-  .footer section:first-child {
+  .footer div:first-child {
     width: 50%;
   }
 
@@ -63,7 +63,7 @@
     margin: 25px 0;
   }
 
-  .footer section:nth-child(2n),
+  .footer div:nth-child(2n),
   .footer ul:nth-child(2n) {
     width: 100%;
     justify-content: space-around;
