@@ -210,7 +210,19 @@
   border-bottom-left-radius: 60px;
 }
 
-@media (min-width: 1024px) {
+.red_slider_top::before {
+  content: '';
+  position: absolute;
+  width: 90px;
+  height: 100px;
+  background: var(--red);
+  -webkit-mask-image: radial-gradient(circle 10px at 0 0, transparent 0, transparent 60px, black 60px);
+  top: -64px;
+  right: calc(58% - 34px);
+  transform: rotateZ(-90deg);
+}
+
+@media (min-width: 1023px) {
   .red_bottom_right::after {
     width: 150px;
     border-top-left-radius: 75px;
