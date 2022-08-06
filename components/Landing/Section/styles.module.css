@@ -127,7 +127,7 @@
   background: var(--red);
   -webkit-mask-image: radial-gradient(circle 10px at 0 0, transparent 0, transparent 59px, black 60px);
   bottom: -2px;
-  right: 58px;
+  right: 34px;
 }
 
 .red_slider_bottom::before {
