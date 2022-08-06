@@ -80,36 +80,6 @@
   width: 50%;
 }
 
-/* .red_top_right {
-  margin-top: 60px;
-} */
-
-.red_top_right::after {
-  content: '';
-  position: absolute;
-  width: 60px;
-  height: 100%;
-  background: var(--red);
-  top: 0;
-  right: 0;
-  border-bottom-left-radius: 60px;
-}
-
-.red_top_right::before {
-  content: '';
-  position: absolute;
-  width: 61px;
-  height: 61px;
-  transform: rotateZ(-90deg);
-  background: var(--red);
-  -webkit-mask-image: radial-gradient(circle 10px at 0 0, transparent 0, transparent 59px, black 60px);
-  top: -2px;
-  right: 58px;
-}
-
-
-
-
 
 /* About Us */
 
@@ -221,6 +191,42 @@
   right: calc(58% - 34px);
   transform: rotateZ(-90deg);
 }
+
+/* style 4 */
+
+.red_top_right::after {
+  content: '';
+  position: absolute;
+  width: 35px;
+  height: 100%;
+  background: var(--red);
+  top: 0;
+  right: 0;
+  border-bottom-left-radius: 60px;
+}
+
+.red_top_right::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 35px;
+  background: var(--red);
+  top: 0;
+  right: 0;
+}
+
+.circle2::after {
+  content: '';
+  position: absolute;
+  transform: rotateZ(-90deg);
+  background: var(--red);
+  top: 34px;
+  right: 34px;
+  width: 61px;
+  height: 61px;
+  -webkit-mask-image: radial-gradient(circle 10px at 0 0, transparent 0, transparent 59px, black 60px);
+}
+
 
 @media (min-width: 1023px) {
   .red_bottom_right::after {
@@ -365,12 +371,48 @@
     transform: rotateZ(-90deg);
   }
 
+  /*  */
+
+  .red_top_right::after {
+    content: '';
+    position: absolute;
+    width: 200px;
+    height: 100%;
+    background: var(--red);
+    top: 0;
+    right: 0;
+    border-bottom-left-radius: 100px;
+  }
+
+  .red_top_right::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 150px;
+    background: var(--red);
+    top: 0;
+    right: 0;
+  }
+
+  .circle2::after {
+    content: '';
+    position: absolute;
+    transform: rotateZ(-90deg);
+    background: var(--red);
+    top: 120px;
+    right: 170px;
+    width: 200px;
+    height: 200px;
+    -webkit-mask-image: radial-gradient(circle 10px at 0 0, transparent 0, transparent 170px, black 60px);
+  }
+
+
 
 
   .content {
     width: 55%;
     padding-left: 50px;
-    padding-bottom: 50px;
+    /* padding-bottom: 50px; */
   }
 
   .article h1 {

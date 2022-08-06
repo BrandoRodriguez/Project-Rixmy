@@ -33,28 +33,29 @@ export const sections = [
         anchor: 'NUESTROS TRABAJOS',
         class: 'red_slider_top',
         background: 'nuestro_trabajo.png',
-        position: 'center'
+        position: 'top'
     },
     {
         id: 'news',
         href: '#',
         section: 'NOTICIAS',
-        title: 'Servicios de Inbound Marketing: expande tu empresa',
-        description: 'En la actualidad los clientes evolucionaron y ya saben cómo buscar en las plataformas digitales lo que desean sin mucho esfuerzo. Sin embargo, necesitan compañía durante el proceso de compra y estrategias de Inbound Marketing que puedan influir en la adquisición del producto.',
+        title: 'We focus on growth for your business.',
+        description: 'In the midst of a global crisis, our team of professionals, through Inbound Marketing strategies and Rixmys methodology, has the tools to exceed your expectations. ',
         anchor: 'VER MÁS',
         class: 'red_top_right',
         background: 'noticias.png',
-        position: 'center'
+        position: 'center',
+        circle: 'circle2',
     },
-    // {
-    //     id:'work-with-us',
-    //     href:'#',
-    //     section: 'TRABAJO',
-    //     title: "Trabaja con nosotros",
-    //     description: '¿Quieres pertenecer a un equipo de campeones? Aprovecha esta oportunidad buscamos profesionales que desean crecer con nosotros y ganar conocimiento. Tendrás la oportunidad de avanzar y desarrollarte en diferentes áreas de acción de Rixmy.',
-    //     anchor: 'VER MÁS',
-    //     class: '',
-    //     background: 'trabaja.png',
-    //     position: 'top'
-    // }
+    {
+        id: 'work-with-us',
+        href: '#',
+        section: 'TRABAJO',
+        title: "Trabaja con nosotros",
+        description: '¿Quieres pertenecer a un equipo de campeones? Aprovecha esta oportunidad buscamos profesionales que desean crecer con nosotros y ganar conocimiento. Tendrás la oportunidad de avanzar y desarrollarte en diferentes áreas de acción de Rixmy.',
+        anchor: 'VER MÁS',
+        class: '',
+        background: 'trabaja.png',
+        position: 'top'
+    }
 ]
