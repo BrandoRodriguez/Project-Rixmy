@@ -6,18 +6,10 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head>
-
-          <link
-            rel="stylesheet"
-            href="https://fonts.googleapis.com/css?family=Staatliches&display=optional"
-          />
-
-          <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-
         </Head>
         <body>
           <Main />
-          <NextScript/>
+          <NextScript />
         </body>
       </Html>
     )
