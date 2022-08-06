@@ -85,6 +85,7 @@
   font-weight: 600;
   width: 70%;
   max-width: 370px;
+  margin-left: 100px;
 }
 
 #menuNav li {
@@ -94,7 +95,7 @@
 #menuNav ul hr {
   position: absolute;
   width: -webkit-fill-available;
-  top: 20px;
+  top: 35px;
   border: none;
   background: #fff;
   height: 2px;
@@ -106,6 +107,8 @@
   z-index: 1;
   position: relative;
   padding-right: 10px;
+  font-size: 34px;
+  line-height: 5rem;
 }
 
 #menuNav span {
@@ -184,6 +187,11 @@
   }
 
   #menuNav ul {
-    margin-left: 10%;
+    text-align: center;
+    margin: auto;
+  }
+
+  #menuNav a {
+    font-size: 24px;
   }
 }
