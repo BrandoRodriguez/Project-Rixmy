@@ -13,7 +13,6 @@
 .article>div {
   min-height: 500px;
   padding: 150px 20px;
-  display: flex;
   flex-wrap: wrap;
   align-items: flex-start;
 }
@@ -36,6 +35,11 @@
   width: 100%;
 }
 
+.article span {
+  font-family: "Montserrat-Medium";
+  font-size: 16px;
+}
+
 .article h1 {
   font-size: 40px;
   line-height: 45px;
@@ -46,17 +50,21 @@
 }
 
 .article p {
-  width: 60%;
-  font-size: 16px;
-  line-height: 18px;
-  text-shadow: 1px 1px 9px #000;
+  font-family: "Montserrat-Regular";
+  width: 80%;
+  font-size: 13px;
+  line-height: 20px;
+  color: rgb(255, 255, 255, .9);
 }
 
 .article a {
+  font-family: "Montserrat-SemiBold";
   color: #fff;
   margin-top: 20px;
   font-weight: 600;
-  display: block;
+  gap: 7px;
+  display: flex;
+  align-items: center;
 }
 
 .flex_between {

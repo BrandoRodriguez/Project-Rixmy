@@ -4,10 +4,10 @@ export const sections = [
     {
         id: 'about-us',
         href: '#',
-        section: 'NOSOTROS',
+        section: 'about us',
         title: 'We focus on growth opportunities for your business.',
         description: 'Nuestros servicios se adecúan a la actualidad y parten de los pilares fundamentales de Inbound Marketing. El objetivo de Rixmy es que tu empresa a través de estrategias inteligentes, tenga la capacidad de atraer, convertir, cerrar y deleitar a tus clientes.',
-        anchor: 'NUESTROS SERVICIOS',
+        anchor: 'WELCOME TO RIXMY',
         class: 'red_bottom_right',
         background: 'nosotros.png',
         position: 'top'

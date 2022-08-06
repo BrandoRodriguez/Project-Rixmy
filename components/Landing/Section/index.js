@@ -17,12 +17,16 @@ function Section({ data }) {
       style={{
         background: `${data.position} url(/img/${data.background})`,
         backgroundSize: 'cover'
+        // linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
       }}
     >
       <div>
         <div className={styles[section_name]} data-aos="fade-up" data-aos-duration="2500" data-aos-once="true">
           {data.section &&
-            <img src="img/items/logo2.svg" alt='logo2' />
+            <img src="img/items/logo2.svg" alt='logo2'
+              width={86}
+              height={22}
+            />
           }
           <span>{data.section.toUpperCase()}</span>
         </div>
