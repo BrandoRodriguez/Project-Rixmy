@@ -60,7 +60,7 @@ function Nav() {
       <nav className={styles.navigation}>
         <img
           className={styles.logo} 
-          src="/img/logo.png" 
+          src="/img/logo.svg" 
           alt='logo' 
           width={90} 
           height={135}
