@@ -15,7 +15,7 @@ function Section({ data }) {
         backgroundSize: 'cover'
       }}
     >
-      <div className={styles.container}>
+      <div className={`${styles.container} ${styles[data.circle]}`}>
         <div className={styles.content}>
           <div className={styles[section_name]} data-aos="fade-up" data-aos-duration="2500" data-aos-once="true">
             {data.section &&

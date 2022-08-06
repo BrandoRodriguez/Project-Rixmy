@@ -6,34 +6,35 @@ export const sections = [
         href: '#',
         section: 'about us',
         title: 'We focus on growth opportunities for your business.',
-        description: 'Nuestros servicios se adecúan a la actualidad y parten de los pilares fundamentales de Inbound Marketing. El objetivo de Rixmy es que tu empresa a través de estrategias inteligentes, tenga la capacidad de atraer, convertir, cerrar y deleitar a tus clientes.',
+        description: 'In the midst of a global crisis, our team of professionals, through Inbound Marketing strategies and Rixmys methodology, has the tools to exceed your expectations. ',
         anchor: 'WELCOME TO RIXMY',
         class: 'red_bottom_right',
+        circle: 'circle',
         background: 'nosotros.jpg',
         position: 'top'
     },
-    // {
-    //     id:'services',
-    //     href:'#',
-    //     section: 'SERVICIOS',
-    //     title: '¿QUÉ OFRECEMOS?',
-    //     description: 'Nuestros servicios se adecúan a la actualidad y parten de los pilares fundamentales de Inbound Marketing. El objetivo de Rixmy es que tu empresa a través de estrategias inteligentes, tenga la capacidad de atraer, convertir, cerrar y deleitar a tus clientes.',
-    //     anchor: 'NUESTROS SERVICIOS',
-    //     class: 'red_slider_bottom',
-    //     background: 'servicios.png',
-    //     position: 'center'
-    // },
-    // {
-    //     id:'our-work',
-    //     href:'#',
-    //     section: 'NUESTROS TRABAJOS',
-    //     title: 'POTENCIAMOS TU MARCA',
-    //     description: 'La metodología de Rixmy le otorga el valor y la calidad que merece tu marca, para ello, todos nuestros procedimientos son evaluados por nuestro equipo de profesionales. Queremos fortalecer tu área de marketing y facilitar todos los procedimientos a través de la tecnología.',
-    //     anchor: 'NUESTROS TRABAJOS',
-    //     class: 'red_slider_top',
-    //     background: 'nuestro_trabajo.png',
-    //     position: 'center'
-    // },
+    {
+        id: 'services',
+        href: '#',
+        section: 'servicios',
+        title: 'What do we offer?',
+        description: 'Our services are adapted to the present day and are based on the fundamental pillars of Inbound Marketing. Rixmys goal is that your company, through intelligent strategies, has the ability to attract, convert, close and delight your customers.',
+        anchor: 'NUESTROS SERVICIOS',
+        class: 'red_slider_bottom',
+        background: 'servicios.png',
+        position: 'center'
+    },
+    {
+        id: 'our-work',
+        href: '#',
+        section: 'NUESTROS TRABAJOS',
+        title: 'POTENCIAMOS TU MARCA',
+        description: 'La metodología de Rixmy le otorga el valor y la calidad que merece tu marca, para ello, todos nuestros procedimientos son evaluados por nuestro equipo de profesionales. Queremos fortalecer tu área de marketing y facilitar todos los procedimientos a través de la tecnología.',
+        anchor: 'NUESTROS TRABAJOS',
+        class: 'red_slider_top',
+        background: 'nuestro_trabajo.png',
+        position: 'center'
+    },
     // {
     //     id:'news',
     //     href:'#',
