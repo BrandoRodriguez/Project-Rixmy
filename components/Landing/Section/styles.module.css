@@ -211,6 +211,87 @@
 
 @media (min-width: 1024px) {
   .red_bottom_right::after {
+    width: 150px;
+    border-top-left-radius: 75px;
+  }
+
+  .red_bottom_right::before {
+    width: 100%;
+    height: 100px;
+  }
+
+  .circle::after {
+    width: 200px;
+    height: 200px;
+    -webkit-mask-image: radial-gradient(circle 10px at 0 0, transparent 0, transparent 170px, black 60px);
+    bottom: 70px;
+    right: 120px;
+  }
+
+  /*  */
+
+  .red_slider_bottom::after {
+    height: 150px;
+    border-top-right-radius: 75px;
+  }
+
+  .red_slider_bottom::before {
+    content: '';
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background: var(--red);
+    -webkit-mask-image: radial-gradient(circle 10px at 0 0, transparent 0, transparent 75px, black 60px);
+    bottom: -174px;
+    left: calc(60% - 124px);
+    transform: rotateZ(90deg);
+    z-index: 2;
+  }
+
+  /*  */
+
+  .red_slider_top::after {
+    height: 150px;
+    background: var(--red);
+    top: 50px;
+    right: 0;
+    border-bottom-left-radius: 80px;
+  }
+
+  .red_slider_top::before {
+    content: '';
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background: var(--red);
+    -webkit-mask-image: radial-gradient(circle 10px at 0 0, transparent 0, transparent 70px, black 60px);
+    top: -130px;
+    right: calc(50% - 104px);
+    transform: rotateZ(-90deg);
+  }
+
+  .content {
+    width: 70%;
+    padding-left: 50px;
+  }
+
+  .article h1 {
+    font-size: 62px;
+    line-height: 68px;
+    margin: 25px 0;
+  }
+
+  .article p {
+    font-size: 16px;
+    line-height: 25px;
+    width: 65%;
+  }
+
+}
+
+
+@media (min-width: 1400px) {
+  .red_bottom_right::after {
     width: 200px;
     border-top-left-radius: 100px;
   }
@@ -221,9 +302,6 @@
   }
 
   .circle::after {
-    width: 200px;
-    height: 200px;
-    -webkit-mask-image: radial-gradient(circle 10px at 0 0, transparent 0, transparent 170px, black 60px);
     bottom: 120px;
     right: 170px;
   }
@@ -275,20 +353,21 @@
 
 
   .content {
-    width: 60%;
+    width: 55%;
     padding-left: 50px;
+    padding-bottom: 50px;
   }
 
   .article h1 {
-    font-size: 62px;
-    line-height: 68px;
+    font-size: 72px;
+    line-height: 72px;
     margin: 25px 0;
   }
 
   .article p {
     font-size: 16px;
     line-height: 25px;
-    width: 65%;
+    width: 60%;
   }
 
 }

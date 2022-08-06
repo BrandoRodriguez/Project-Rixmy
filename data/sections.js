@@ -5,7 +5,7 @@ export const sections = [
         id: 'about-us',
         href: '#',
         section: 'about us',
-        title: 'We focus on growth opportunities for your business.',
+        title: 'We focus on growth for your business.',
         description: 'In the midst of a global crisis, our team of professionals, through Inbound Marketing strategies and Rixmys methodology, has the tools to exceed your expectations. ',
         anchor: 'WELCOME TO RIXMY',
         class: 'red_bottom_right',
@@ -35,17 +35,17 @@ export const sections = [
         background: 'nuestro_trabajo.png',
         position: 'center'
     },
-    // {
-    //     id:'news',
-    //     href:'#',
-    //     section: 'NOTICIAS',
-    //     title: 'Servicios de Inbound Marketing: expande tu empresa',
-    //     description: 'En la actualidad los clientes evolucionaron y ya saben cómo buscar en las plataformas digitales lo que desean sin mucho esfuerzo. Sin embargo, necesitan compañía durante el proceso de compra y estrategias de Inbound Marketing que puedan influir en la adquisición del producto.',
-    //     anchor: 'VER MÁS',
-    //     class: 'red_top_right',
-    //     background: 'noticias.png',
-    //     position: 'center'
-    // },
+    {
+        id: 'news',
+        href: '#',
+        section: 'NOTICIAS',
+        title: 'Servicios de Inbound Marketing: expande tu empresa',
+        description: 'En la actualidad los clientes evolucionaron y ya saben cómo buscar en las plataformas digitales lo que desean sin mucho esfuerzo. Sin embargo, necesitan compañía durante el proceso de compra y estrategias de Inbound Marketing que puedan influir en la adquisición del producto.',
+        anchor: 'VER MÁS',
+        class: 'red_top_right',
+        background: 'noticias.png',
+        position: 'center'
+    },
     // {
     //     id:'work-with-us',
     //     href:'#',
