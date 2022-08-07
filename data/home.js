@@ -11,7 +11,7 @@ export const home = [
         class: 'red_bottom_right',
         circle: 'circle',
         background: 'sections/about_us.jpg',
-        position: 'top'
+        position: 'center'
     },
     {
         id: 'services',

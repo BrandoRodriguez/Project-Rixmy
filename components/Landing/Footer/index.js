@@ -9,7 +9,7 @@ function Footer() {
     return (
         <footer className={styles.footer}>
             <div>
-                <img src="img/items/rixmy_full_logo.png" />
+                <img src="img/items/rixmy_full_logo.png" alt='Logo-Footer' />
             </div>
             <div>
                 <ul>
