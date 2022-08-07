@@ -9,11 +9,7 @@ function Article({ article }) {
 
     return (
         <>
-            <div className={styles.single_blog} 
-                data-aos="fade-left"
-                data-aos-duration="700"
-                data-aos-once="true"
-            >
+            <div className={styles.single_blog} >
                 <div>
                     <Link href={link_article}>
                         <a className={styles.featured_img}>

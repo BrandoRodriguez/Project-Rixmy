@@ -1,7 +1,7 @@
 
 import Section from "../../components/Landing/Section"
 import Layout from '../../components/Layout'
-import { about_us } from '../../data/about-us'
+import { services } from '../../data/services'
 
 const Nosotros = () => {
 
@@ -9,7 +9,7 @@ const Nosotros = () => {
         <>
             <Layout>
                 {
-                    about_us.map((data, index) => {
+                    services.map((data, index) => {
                         return <Section key={index} data={data} />
                     })
                 }

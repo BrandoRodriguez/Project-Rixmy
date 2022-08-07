@@ -7,7 +7,6 @@ import '../styles/fontawesome.css'
 import { createContext } from "react"
 import { fetchAPI } from "../lib/api"
 import { getStrapiMedia } from "../lib/media"
-import Script from 'next/script'
 
 // Store Strapi Global object in context
 export const GlobalContext = createContext({})
@@ -26,10 +25,6 @@ const MyApp = ({ Component, pageProps }) => {
       <GlobalContext.Provider value={global.attributes}>
           <Component {...pageProps} />
       </GlobalContext.Provider>
-      <Script id='1' src="https://unpkg.com/aos@next/dist/aos.js" strategy='beforeInteractive'></Script>
-      <Script id='2'>
-        AOS.init()
-      </Script>
     </>
   )
 }

@@ -1,14 +1,14 @@
 import React from 'react'
 import Section from '../Section'
 
-import {sections} from '../../../data/sections'
+import {home} from '../../../data/home'
 
 
 function Sections() {
   return (
     <>
       {
-        sections.map( (data, index) => {
+        home.map( (data, index) => {
           return <Section key={index} data={data}/>
         })
       }
