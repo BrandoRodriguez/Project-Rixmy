@@ -47,7 +47,7 @@
 
 .article h1 {
   font-size: 32px;
-  line-height: 46px;
+  line-height: 42px;
   margin: 25px 0;
   text-transform: uppercase;
   font-family: "Montserrat-Black";
@@ -64,7 +64,7 @@
   font-family: "Montserrat-SemiBold";
   color: #fff;
   margin-top: 25px;
-  font-size: 20px;
+  font-size: 15px;
   gap: 7px;
   display: flex;
   align-items: center;
