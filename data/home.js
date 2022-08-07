@@ -10,7 +10,7 @@ export const home = [
         anchor: 'WELCOME TO RIXMY',
         class: 'red_bottom_right',
         circle: 'circle',
-        background: 'sections/about_us_antiguo.jpg',
+        background: 'sections/about_us.jpg',
         position: 'top'
     },
     {
