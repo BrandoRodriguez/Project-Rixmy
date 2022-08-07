@@ -53,16 +53,13 @@ function Nav() {
   return (
     <>
       <nav className={styles.navigation}>
-
-        <div>
-          <img
-            className={styles.logo}
-            src="/img/rixmy_logo.svg"
-            alt='rixmy'
-            width={90}
-            height={135}
-          />
-        </div>
+        <img
+          className={styles.logo}
+          src="/img/logo.png"
+          alt='rixmy'
+          width={90}
+          height={135}
+        />
         <ul>
           <li>
             <a href="#" className={styles.lenguage}>
