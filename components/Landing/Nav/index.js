@@ -55,10 +55,10 @@ function Nav() {
       <nav className={styles.navigation}>
         <img
           className={styles.logo}
-          src="/img/logo.png"
+          src="/img/rixmy_logo.svg"
           alt='rixmy'
-          width={90}
-          height={135}
+          width={100}
+          height={100}
         />
         <ul>
           <li>
@@ -78,8 +78,8 @@ function Nav() {
               <img
                 src="/img/items/menu.svg"
                 alt='languaje'
-                width={22}
-                height={16}
+                width={30}
+                height={30}
               />
             </a>
 

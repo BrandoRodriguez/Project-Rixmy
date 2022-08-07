@@ -6,7 +6,7 @@
   position: fixed;
   left: 0;
   height: 100%;
-  width: 90px;
+  width: 100px;
   color: #fff;
   background: var(--red);
   z-index: 98;
@@ -55,7 +55,7 @@
 
 .navigation .logo {
   position: relative;
-  margin: 3% 0;
+  margin-top: 25px;
 }
 
 #menuNav {
