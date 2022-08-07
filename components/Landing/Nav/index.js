@@ -1,9 +1,7 @@
 import Link from 'next/link'
 import styles from './styles.module.css'
-import Image from 'next/image';
 import { useState } from 'react'
 import ArrowRight from '../Icons/ArrowRight';
-import Bars from '../Icons/Bars'
 
 function NavDisplay({ state }) {
   return (
@@ -80,7 +78,12 @@ function Nav() {
 
           <li>
             <a id={styles.toggle} onClick={menuNav} className={active}>
-              <Bars />
+              <img
+                src="/img/items/menu.svg"
+                alt='languaje'
+                width={22}
+                height={16}
+              />
             </a>
 
           </li>
