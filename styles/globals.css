@@ -88,6 +88,8 @@ body {
 a {
   outline: none;
   text-decoration: none;
+  font-family: "Montserrat-SemiBold";
+  cursor: pointer;
 }
 
 a a:focus,
