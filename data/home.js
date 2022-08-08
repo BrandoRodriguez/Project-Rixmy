@@ -44,6 +44,7 @@ export const home = [
         anchor: 'SEE MORE',
         class: 'red_top_right',
         background: 'sections/news.jpg',
+        circle: 'circle2',
         position: 'center'
     },
     {
