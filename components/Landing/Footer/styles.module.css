@@ -64,9 +64,6 @@
 }
 
 @media (max-width: 768px) {
-  /* .footer div:first-child {
-    width: 50%;
-  } */
 
   .footer ul:first-child {
     margin: 25px 0;
