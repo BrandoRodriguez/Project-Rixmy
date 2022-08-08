@@ -2,7 +2,7 @@ import React from 'react'
 import styles from './styles.module.css'
 import ArrowRight from '../Icons/ArrowRight'
 
-function Section({ data }) {
+function Section2({ data }) {
 
   const class_name = data.id.replace(/-/g, '_')
   const section_name = class_name + '_section'
@@ -47,4 +47,4 @@ function Section({ data }) {
   )
 }
 
-export default Section
+export default Section2
