@@ -19,7 +19,9 @@ function Section2({ data }) {
       <div className={`${styles.container} ${styles[data.style.circle]}`}>
         <div className={styles.content}>
           <div className={styles.content_flex}>
-            <div>
+
+            {/* left text */}
+            <div className='primer div'>
               <div className={styles[section_name]}>
                 {data.section &&
                   <img src="img/items/section_logo.svg" alt='section_logo'
@@ -43,32 +45,30 @@ function Section2({ data }) {
                 }
               </div>
             </div>
+
+            {/* right text */}
             <div>
-              <h2 className={styles.h2}>How will we achieve this?</h2>
+              <h2 className={styles.h2}>{data.right_text.title}</h2>
               <div className={styles.content_flex1}>
-                <div>
-                  <h3>
-                    Creativity
-                  </h3>
-                  <hr />
-                  <p>
-                    Through active listening and the right diagnostic tools, we will find the best solution to the problem your company is facing.
-                  </p>
-                </div>
-                <div>
-                  <h3>
-                    Creativity
-                  </h3>
-                  <hr />
-                  <p>
-                    Through active listening and the right diagnostic tools, we will find the best solution to the problem your company is facing.
-                  </p>
-                </div>
+
+                {
+                  data.right_text.content.map(({subtitle, description}, index) => {
+                    return (
+                    <div key={index}>
+                      <h3>
+                        {subtitle}
+                      </h3>
+                      <hr />
+                      <p>
+                        {description}
+                      </p>
+                    </div>
+                    )
+                  })
+                }
               </div>
             </div>
           </div>
-
-
         </div>
       </div>
     </section>

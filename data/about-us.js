@@ -37,7 +37,7 @@ export const about_us = [
         description: 'In such a convulsed market we learned how to improve marketing strategies and techniques to become the solution your company needs.',
         anchor: 'OUR SERVICES',
         style: {
-            type: 'section2',
+            type: 'section',
             class: 'red_slider_top',
             background: 'sections/crisis.jpg',
             position: 'center'
@@ -55,6 +55,27 @@ export const about_us = [
             class: '',
             background: 'sections/new_challenges_motivate_us.jpg',
             position: 'center'
+        },
+        right_text: {
+            title: '',
+            content: [
+                {
+                    subtitle: '11+',
+                    description: "Experts on our Staff"
+                },
+                {
+                    subtitle: '10+',
+                    description: "Digital Marketing Areas Covered"
+                },
+                {
+                    subtitle: '10',
+                    description: "Strategic Services for your Company"
+                },
+                {
+                    subtitle: '1 Method + 1 Formula',
+                    description: "We add Value to your Company"
+                }
+            ]
         }
     },
     {
@@ -70,6 +91,23 @@ export const about_us = [
             circle: 'circle',
             background: 'sections/expectations.jpg',
             position: 'center'
+        },
+        right_text: {
+            title: 'How will we achieve this?',
+            content: [
+                {
+                    subtitle: 'Creativity',
+                    description: "We are passionate about Digital Marketing"
+                },
+                {
+                    subtitle: 'Empathy',
+                    description: "Through active listening and the right diagnostic tools, we will find the best solution to the problem your company is facing."
+                },
+                {
+                    subtitle: 'Fidelity',
+                    description: "We respect all established agreements and commitments. Through active listening and the right diagnostic tools, we will find the best solution to the problem your company is facing."
+                }
+            ]
         }
     },
     {
@@ -84,6 +122,35 @@ export const about_us = [
             class: '',
             background: 'sections/what_does_your_company_get.jpg',
             position: 'center'
+        },
+        right_text: {
+            title: '',
+            content: [
+                {
+                    subtitle: 'Market research',
+                    description: "We have an exclusive team for market research and analysis. "
+                },
+                {
+                    subtitle: 'We capture opportunities',
+                    description: "Countries we call home"
+                },
+                {
+                    subtitle: 'Profile of your buyer persona',
+                    description: "We know the characteristics of the buyer persona of our customers."
+                },
+                {
+                    subtitle: 'We capture opportunities',
+                    description: "We help our clients capture opportunities through our technology and marketing tools."
+                },
+                {
+                    subtitle: 'We connect with your target',
+                    description: "Through us you will be more connected with your customers."
+                },
+                {
+                    subtitle: 'We grow with you',
+                    description: "We are your company throughout your evolution process."
+                }
+            ]
         }
     },
 ]
