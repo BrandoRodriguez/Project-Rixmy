@@ -54,7 +54,8 @@ export const about_us = [
         anchor: '',
         class: 'red_bottom_right',
         background: 'sections/expectations.jpg',
-        position: 'center'
+        circle: 'circle',
+        position: 'bottom center'
     },
     // {
     //     id: '',
