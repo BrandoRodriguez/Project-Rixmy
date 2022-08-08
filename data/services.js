@@ -7,7 +7,8 @@ export const services = [
         title: "Support of the Inbound Marketing methodology",
         description: "With this type of procedure you will obtain greater engagement with your audience, increase traffic on your different platforms, achieve qualified leads, transmit confidence, demonstrate security, generate a community of loyal customers to your brand and all these advantages are transformed into a greater number of sales. ",
         anchor: '',
-        class: '',
+        class: 'red_bottom_right',
+        circle: 'circle',
         background: 'sections/services.jpg',
         position: 'center'
     },
