@@ -9,7 +9,7 @@ export const home = [
         description: 'In the midst of a global crisis, our team of professionals, through Inbound Marketing strategies and Rixmys methodology, has the tools to exceed your expectations. ',
         anchor: 'WELCOME TO RIXMY',
         style: {
-            type: '',
+            type: 'section',
             class: 'red_bottom_right',
             circle: 'circle',
             background: 'sections/about_us.jpg',
@@ -42,7 +42,7 @@ export const home = [
         description: "Rixmy's methodology gives you the value and quality that your brand deserves, for this, all our procedures are evaluated by our team of professionals. We want to strengthen your marketing area and facilitate all procedures through technology.",
         anchor: 'OUR WORK',
         style : {
-            type: '',
+            type: 'section',
             class: 'red_slider_top',
             background: 'sections/our_work.jpg',
             position: 'center'
@@ -56,7 +56,7 @@ export const home = [
         description: "Today's customers have evolved and already know how to search digital platforms for what they want without much effort. However, they need companionship during the purchase process and Inbound Marketing strategies that can influence product acquisition.",
         anchor: 'SEE MORE',
         style : {
-            type: '',
+            type: 'section',
             class: 'red_top_right',
             circle: 'circle2',
             background: 'sections/news.jpg',
@@ -71,7 +71,7 @@ export const home = [
         description: "Take advantage of this opportunity, we are looking for professionals who want to grow with us and gain knowledge. You will have the opportunity to advance and develop in different areas of action of Rixmy.",
         anchor: 'EXPLORE NOW',
         style : {
-            type: '',
+            type: 'section',
             class: '',
             background: 'sections/work_with_us.jpg',
             position: 'top'

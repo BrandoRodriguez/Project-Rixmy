@@ -1,21 +1,13 @@
 import React from 'react'
-import Section from '../Section'
-import Slider from '../Slider';
-import {home} from '../../../data/home'
+import getComponent from '../../../utils/getComponent';
 
 
-function Sections() {
+function Sections({pageData}) {
   return (
     <>
       {
-        home.map( (data, index) => {
-
-          if (data.style.type === 'slider') {
-            return <Slider key={index} data={data}/>
-          } else {
-            return <Section key={index} data={data}/>
-          }
-
+        pageData.map( (data, index) => {
+          return getComponent(data, index)
         })
       }
     </>
