@@ -43,8 +43,8 @@ export const home = [
         description: "Today's customers have evolved and already know how to search digital platforms for what they want without much effort. However, they need companionship during the purchase process and Inbound Marketing strategies that can influence product acquisition.",
         anchor: 'SEE MORE',
         class: 'red_top_right',
-        background: 'sections/news.jpg',
         circle: 'circle2',
+        background: 'sections/news.jpg',
         position: 'center'
     },
     {

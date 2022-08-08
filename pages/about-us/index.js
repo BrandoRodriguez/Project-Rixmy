@@ -1,5 +1,5 @@
 
-import Section from "../../components/Landing/Section"
+import Section2 from "../../components/Landing/Section2"
 import Layout from '../../components/Layout'
 import { about_us } from '../../data/about-us'
 
@@ -10,7 +10,7 @@ const Nosotros = () => {
             <Layout>
                 {
                     about_us.map((data, index) => {
-                        return <Section key={index} data={data} />
+                        return <Section2 key={index} data={data} />
                     })
                 }
             </Layout>

@@ -1,19 +1,20 @@
 
 export const about_us = [
     {
-        id:'',
-        href:'#',
+        id: '',
+        href: '#',
         section: 'More than a marketing agency',
         title: "",
         description: 'We are a network that allows you to connect with your audience, through strategies and digital products designed by our multidisciplinary team of professionals.',
         anchor: '',
         class: 'red_top_right',
         background: 'sections/more_than_a_marketing_agency.jpg',
-        position: 'center'
+        circle: 'circle2',
+        position: 'left center'
     },
     {
-        id:'',
-        href:'#',
+        id: '',
+        href: '#',
         section: '',
         title: 'Evolve with us',
         description: "We have the youth, experience and constant preparation to be avant-garde in the digital area. For this reason, we can offer our clients a quality service, according to their needs and expectations. Empathy with our clients allows us to obtain a situational analysis that effectively addresses the problem at its root.",
@@ -23,8 +24,8 @@ export const about_us = [
         position: 'center'
     },
     {
-        id:'',
-        href:'#',
+        id: '',
+        href: '#',
         section: 'Crisis?',
         title: 'Opportunity to move forward',
         description: 'In such a convulsed market we learned how to improve marketing strategies and techniques to become the solution your company needs.',
@@ -34,8 +35,8 @@ export const about_us = [
         position: 'center'
     },
     {
-        id:'',
-        href:'#',
+        id: '',
+        href: '#',
         section: 'New challenges motivate us',
         title: 'Our Mission',
         description: "To strengthen our clients' brands in the market, through a market, by means of a solid, responsible communication structure, strengthened by our digital marketing with our digital marketing services and technological technological solutions.",
@@ -45,8 +46,8 @@ export const about_us = [
         position: 'center'
     },
     {
-        id:'',
-        href:'#',
+        id: '',
+        href: '#',
         section: 'expectations',
         title: 'Our Vision',
         description: 'To be world leaders in digital marketing solutions, to become the stoic support for the growth of each of our clients.',
@@ -56,8 +57,8 @@ export const about_us = [
         position: 'center'
     },
     {
-        id:'',
-        href:'#',
+        id: '',
+        href: '#',
         section: 'What does your company get?',
         title: 'Advantages of contracting us',
         description: 'We guarantee your growth and expand your optimization margins with the effectiveness of our processes',
