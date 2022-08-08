@@ -8,8 +8,7 @@
   width: 100%;
   padding: 50px;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   color: var(--red);
 }
@@ -20,8 +19,6 @@
 } */
 
 .footer div:nth-child(2n) {
-  width: 85%;
-  padding-left: 5%;
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-end;
@@ -64,6 +61,13 @@
 }
 
 @media (max-width: 768px) {
+  .footer {
+    display: block;
+  }
+
+  .footer img {
+    margin: auto;
+  }
 
   .footer ul:first-child {
     margin: 25px 0;
