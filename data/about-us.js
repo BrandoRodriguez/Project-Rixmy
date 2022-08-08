@@ -1,4 +1,3 @@
-
 export const about_us = [
 
     {
@@ -68,8 +67,9 @@ export const about_us = [
         style: {
             type: 'section2',
             class: 'red_bottom_right',
+            circle: 'circle',
             background: 'sections/expectations.jpg',
-            position: 'bottom center'
+            position: 'center'
         }
     },
     {
