@@ -15,7 +15,6 @@ const Nosotros = () => {
                 }
             </Layout>
         </>
-
     )
 }
 

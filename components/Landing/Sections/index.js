@@ -1,6 +1,6 @@
 import React from 'react'
 import Section from '../Section'
-
+import Slider from '../Slider';
 import {home} from '../../../data/home'
 
 
@@ -9,7 +9,13 @@ function Sections() {
     <>
       {
         home.map( (data, index) => {
-          return <Section key={index} data={data}/>
+
+          if (data.style.type === 'slider') {
+            return <Slider key={index} data={data}/>
+          } else {
+            return <Section key={index} data={data}/>
+          }
+
         })
       }
     </>
