@@ -9,7 +9,7 @@ function Footer() {
     return (
         <footer className={styles.footer}>
             <div>
-                <img src="img/items/rixmy_full_logo.png" alt='Logo-Footer' />
+                <img src="img/items/rixmy_full_logo.png" alt='Logo-Footer' width={212} height={75} />
             </div>
             <div>
                 <ul>
@@ -53,7 +53,7 @@ function Footer() {
                     </li>
                     <hr className={styles.hr} />
                     <li>
-                        <a href="#">INTEREST-BASED ADVERTISING NOTICE</a>
+                        <a href="#">INTEREST ADVERTISING NOTICE</a>
                     </li>
                 </ul>
                 <p className={styles.p}>© 2022 Rixmy. All rights reserved</p>

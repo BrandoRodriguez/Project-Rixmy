@@ -14,9 +14,10 @@
   color: var(--red);
 }
 
+/* 
 .footer div:first-child {
   width: 15%;
-}
+} */
 
 .footer div:nth-child(2n) {
   width: 85%;
@@ -59,13 +60,13 @@
 
 .p {
   font-family: "Montserrat-medium";
-  font-size: 16px;
+  font-size: 13px;
 }
 
 @media (max-width: 768px) {
-  .footer div:first-child {
+  /* .footer div:first-child {
     width: 50%;
-  }
+  } */
 
   .footer ul:first-child {
     margin: 25px 0;
