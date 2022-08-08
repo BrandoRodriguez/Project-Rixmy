@@ -16,7 +16,7 @@ function Section({ data }) {
         backgroundSize: 'cover'
       }}
     >
-      <div className={`${styles.container} ${styles[data.style.circle]}`}>
+      <div className={`${styles[data.style.circle]}`}>
         <div className={styles.content}>
           <div className={styles[section_name]}>
             {data.section &&
@@ -33,10 +33,10 @@ function Section({ data }) {
               {data.description}
             </p>
             {
-              data.anchor && 
+              data.anchor &&
               <a href={data.href}>
-                <ArrowRight/>
-                {data.anchor} 
+                <ArrowRight />
+                {data.anchor}
               </a>
             }
           </div>
