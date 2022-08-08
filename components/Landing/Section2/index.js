@@ -10,13 +10,13 @@ function Section({ data }) {
   return (
 
     <section
-      className={`${styles.article} ${styles[data.class]}`}
+      className={`${styles.article} ${styles[data.style.class]}`}
       style={{
-        background: `${data.position} url(/img/${data.background})`,
+        background: `${data.style.position} url(/img/${data.style.background})`,
         backgroundSize: 'cover'
       }}
     >
-      <div className={`${styles.container} ${styles[data.circle]}`}>
+      <div className={`${styles.container} ${styles[data.style.circle]}`}>
         <div className={styles.content}>
           <div className={styles.content_flex}>
             <div>

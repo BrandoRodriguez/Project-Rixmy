@@ -1,15 +1,13 @@
 import React from 'react'
-import Section from '../Section'
-
-import {home} from '../../../data/home'
+import getComponent from '../../../utils/getComponent';
 
 
-function Sections() {
+function Sections({pageData}) {
   return (
     <>
       {
-        home.map( (data, index) => {
-          return <Section key={index} data={data}/>
+        pageData.map( (data, index) => {
+          return getComponent(data, index)
         })
       }
     </>
