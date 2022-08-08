@@ -1,21 +1,18 @@
 import Link from 'next/link'
 import styles from './styles.module.css'
-import Image from 'next/image';
 import { useState } from 'react'
 import ArrowRight from '../Icons/ArrowRight';
-import Bars from '../Icons/Bars'
 
-function NavDisplay({state}) {
+function NavDisplay({ state }) {
   return (
 
-    <div id={styles.menuNav} className= {state}>
+    <div id={styles.menuNav} className={state}>
       <ul>
         <li className={styles.dropdown}>
           <Link href='/'>
             <a>HOME</a>
           </Link>
-          {/* <a href='/'>INICIO</a> */}
-          <hr />
+          {/* <hr /> */}
           <span className={styles.dropdown_content}>
             <a href="">OUR APPROACH</a>
             <a href="">OUR TEAM</a>
@@ -25,7 +22,6 @@ function NavDisplay({state}) {
           <Link href={'/about-us'}>
             <a>ABOUT US</a>
           </Link>
-          {/* <a href='/nosotros'>NOSOTROS</a> */}
         </li>
         <li>
           <a href="">SERVICES</a>
@@ -58,28 +54,33 @@ function Nav() {
     <>
       <nav className={styles.navigation}>
         <img
-          className={styles.logo} 
-          src="/img/rixmy_logo.svg" 
-          alt='rixmy' 
-          width={90} 
-          height={135}
+          className={styles.logo}
+          src="/img/rixmy_logo.svg"
+          alt='rixmy'
+          width={100}
+          height={100}
         />
         <ul>
           <li>
             <a href="#" className={styles.lenguage}>
-              <img 
-                src="/img/es.PNG" 
-                alt='languaje' 
-                width={22} 
+              <img
+                src="/img/es.PNG"
+                alt='languaje'
+                width={22}
                 height={15}
               />
-              <ArrowRight/>
+              <ArrowRight />
             </a>
           </li>
 
           <li>
-            <a id={styles.toggle} onClick={menuNav} className={active}>
-              <Bars/>
+            <a id={styles.menu} onClick={menuNav} className={styles.lenguage}>
+              <img
+                src="/img/items/menu.svg"
+                alt='menu'
+                width={30}
+                height={30}
+              />
             </a>
 
           </li>

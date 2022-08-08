@@ -13,7 +13,7 @@ export const home = [
             class: 'red_bottom_right',
             circle: 'circle',
             background: 'sections/about_us.jpg',
-            position: 'top'
+            position: 'center'
         }
     },
     {
@@ -49,8 +49,8 @@ export const home = [
         }
     },
     {
-        id:'news',
-        href:'#',
+        id: 'news',
+        href: '#',
         section: 'NEWS',
         title: 'Future focus 2021: Accelerated branding',
         description: "Today's customers have evolved and already know how to search digital platforms for what they want without much effort. However, they need companionship during the purchase process and Inbound Marketing strategies that can influence product acquisition.",
@@ -58,13 +58,14 @@ export const home = [
         style : {
             type: '',
             class: 'red_top_right',
+            circle: 'circle2',
             background: 'sections/news.jpg',
             position: 'center'
         }
     },
     {
-        id:'work-with-us',
-        href:'#',
+        id: 'work-with-us',
+        href: '#',
         section: 'WORK WITH US',
         title: "Do you want to belong to a team of champions?",
         description: "Take advantage of this opportunity, we are looking for professionals who want to grow with us and gain knowledge. You will have the opportunity to advance and develop in different areas of action of Rixmy.",

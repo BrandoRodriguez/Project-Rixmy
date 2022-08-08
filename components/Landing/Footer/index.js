@@ -9,7 +9,7 @@ function Footer() {
     return (
         <footer className={styles.footer}>
             <div>
-                <img src="img/items/rixmy_full_logo.png" />
+                <img src="img/items/rixmy_full_logo.svg" alt='Logo-Footer' width={212} height={75} />
             </div>
             <div>
                 <ul>
@@ -43,20 +43,20 @@ function Footer() {
                     <li>
                         <a href="#">COOKIES POLICY</a>
                     </li>
-                    <hr />
+                    <hr className={styles.hr} />
                     <li>
                         <a href="#">TERMS AND CONDITIONS</a>
                     </li>
-                    <hr />
+                    <hr className={styles.hr} />
                     <li>
                         <a href="#">PRIVACY POLICY</a>
                     </li>
-                    <hr />
+                    <hr className={styles.hr} />
                     <li>
-                        <a href="#">INTEREST-BASED ADVERTISING NOTICE</a>
+                        <a href="#">INTEREST ADVERTISING NOTICE</a>
                     </li>
                 </ul>
-                <p>© 2022 Rixmy. All rights reserved</p>
+                <p className={styles.p}>© 2022 Rixmy. All rights reserved</p>
             </div>
         </footer>
 

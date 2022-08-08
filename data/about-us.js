@@ -1,5 +1,6 @@
 
 export const about_us = [
+
     {
         id:'',
         href:'#',
@@ -10,8 +11,9 @@ export const about_us = [
         style : {
             type: '',
             class: 'red_top_right',
+            circle: 'circle2',
             background: 'sections/more_than_a_marketing_agency.jpg',
-            position: 'center'
+            position: 'left center'
         }
     },
     {
@@ -57,8 +59,8 @@ export const about_us = [
         }
     },
     {
-        id:'',
-        href:'#',
+        id: '',
+        href: '#',
         section: 'expectations',
         title: 'Our Vision',
         description: 'To be world leaders in digital marketing solutions, to become the stoic support for the growth of each of our clients.',
@@ -71,8 +73,8 @@ export const about_us = [
         }
     },
     {
-        id:'',
-        href:'#',
+        id: '',
+        href: '#',
         section: 'What does your company get?',
         title: 'Advantages of contracting us',
         description: 'We guarantee your growth and expand your optimization margins with the effectiveness of our processes',

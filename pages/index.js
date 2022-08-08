@@ -7,8 +7,17 @@ const Home = () => {
   return (
     <>
       <Layout>
-        <Video />
+        {/* <Video /> */}
         <Sections />
+
+        <div>
+          <div style={{
+            background: `url(/img/sections/about_us.jpg)`,
+            backgroundSize: 'cover'
+          }}>
+
+          </div>
+        </div>
       </Layout>
     </>
   )
