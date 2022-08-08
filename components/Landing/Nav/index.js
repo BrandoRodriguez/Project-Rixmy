@@ -74,10 +74,10 @@ function Nav() {
           </li>
 
           <li>
-            <a id={styles.toggle} onClick={menuNav} className={active}>
+            <a id={styles.menu} onClick={menuNav} className={styles.lenguage}>
               <img
                 src="/img/items/menu.svg"
-                alt='languaje'
+                alt='menu'
                 width={30}
                 height={30}
               />

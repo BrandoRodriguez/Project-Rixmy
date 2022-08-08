@@ -23,7 +23,7 @@ const MyApp = ({ Component, pageProps }) => {
         />
       </Head>
       <GlobalContext.Provider value={global.attributes}>
-          <Component {...pageProps} />
+        <Component {...pageProps} />
       </GlobalContext.Provider>
     </>
   )

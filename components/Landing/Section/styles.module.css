@@ -308,7 +308,7 @@
 }
 
 
-@media (min-width: 1400px) {
+@media (min-width: 1600px) {
   .red_bottom_right::after {
     width: 200px;
     border-top-left-radius: 100px;

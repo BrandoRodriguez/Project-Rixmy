@@ -46,12 +46,20 @@
 
 .footer a {
   color: var(--red);
+  font-family: "Montserrat-Regular";
+  font-size: 14px;
+
 }
 
 .footer ul hr {
   background: var(--red);
   border: none;
   width: 1px;
+}
+
+.p {
+  font-family: "Montserrat-medium";
+  font-size: 16px;
 }
 
 @media (max-width: 768px) {
@@ -64,10 +72,15 @@
   }
 
   .footer div:nth-child(2n),
-  .footer ul:nth-child(2n) {
+  .footer ul:nth-child(2n) li {
     width: 100%;
     justify-content: space-around;
     font-size: 13px;
+    display: flex;
+  }
+
+  .hr {
+    display: none;
   }
 
 }
