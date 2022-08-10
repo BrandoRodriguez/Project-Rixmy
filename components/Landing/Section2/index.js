@@ -16,12 +16,15 @@ function Section2({ data }) {
         backgroundSize: 'cover'
       }}
     >
-      <div className={`${styles.container} ${styles[data.style.circle]}`}>
-        <div className={styles.content}>
-          <div className={styles.content_flex}>
+      <div className={`${styles[data.style.circle]}`}>
 
+        <div className={styles.content}>
+
+          <div className={styles.content_flex}>
+      
             {/* left text */}
-            <div className='primer div'>
+            <div>
+              {/* LOGO */}
               <div className={styles[section_name]}>
                 {data.section &&
                   <img src="img/items/section_logo.svg" alt='section_logo'
@@ -31,6 +34,8 @@ function Section2({ data }) {
                 }
                 <span>{data.section}</span>
               </div>
+
+                {/* TEXTO */}
               <div>
                 <h1>{data.title}</h1>
                 <p>
@@ -44,10 +49,12 @@ function Section2({ data }) {
                   </a>
                 }
               </div>
+              
             </div>
 
             {/* right text */}
             <div>
+
               <h2 className={styles.h2}>{data.right_text.title}</h2>
               <div className={styles.content_flex1}>
 
@@ -67,9 +74,12 @@ function Section2({ data }) {
                   })
                 }
               </div>
+
             </div>
           </div>
+
         </div>
+
       </div>
     </section>
 

@@ -23,9 +23,14 @@ export const about_us = [
         description: "We have the youth, experience and constant preparation to be avant-garde in the digital area. For this reason, we can offer our clients a quality service, according to their needs and expectations. Empathy with our clients allows us to obtain a situational analysis that effectively addresses the problem at its root.",
         anchor: '',
         style: {
-            type: 'section',
-            class: 'red_slider_bottom',
-            background: 'sections/evolve_with_us.jpg',
+            type: 'slider',
+            class: '',
+            background: [
+                'sections/evolve_with_us.jpg',
+                'sections/crisis.jpg',
+                'sections/new_challenges_motivate_us.jpg',
+                'sections/expectations.jpg',
+            ],
             position: 'center'
         }
     },
@@ -39,6 +44,7 @@ export const about_us = [
         style: {
             type: 'section',
             class: 'red_slider_top',
+            circle: '',
             background: 'sections/crisis.jpg',
             position: 'center'
         }

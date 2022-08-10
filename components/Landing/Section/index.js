@@ -17,7 +17,10 @@ function Section({ data }) {
       }}
     >
       <div className={`${styles[data.style.circle]}`}>
+
         <div className={styles.content}>
+
+          {/* LOGO */}
           <div className={styles[section_name]}>
             {data.section &&
               <img src="img/items/section_logo.svg" alt='section_logo'
@@ -27,7 +30,10 @@ function Section({ data }) {
             }
             <span>{data.section}</span>
           </div>
+          
+            {/* TEXTO */}
           <div>
+
             <h1>{data.title}</h1>
             <p>
               {data.description}
@@ -39,8 +45,11 @@ function Section({ data }) {
                 {data.anchor}
               </a>
             }
+
           </div>
+
         </div>
+        
       </div>
     </section>
 

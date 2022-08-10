@@ -4,7 +4,7 @@ import Sections from '../../components/Landing/Sections'
 import { services } from '../../data/services'
 
 
-const Nosotros = () => {
+const Services = () => {
 
     return (
         <>
@@ -15,4 +15,4 @@ const Nosotros = () => {
     )
 }
 
-export default Nosotros
+export default Services
