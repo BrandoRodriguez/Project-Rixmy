@@ -1,7 +1,6 @@
 import React, { useRef, useEffect, useCallback } from 'react';
 import LeftArrow from '../LeftArrow'
 import RightArrow from '../RightArrow'
-
 import Button from '../Button'
 import styles from './styles.module.css';
 
@@ -57,12 +56,12 @@ export default function Slideshow ({
 			return
 		}
 		const index = slideshow.current.children.length - 1;
-		const ultimoElemento = slideshow.current.children[index];
-		slideshow.current.insertBefore(ultimoElemento, slideshow.current.firstChild);
+		const lastElement = slideshow.current.children[index];
+		slideshow.current.insertBefore(lastElement, slideshow.current.firstChild);
 
 		slideshow.current.style.transition = 'none';
-		const tamañoSlide = slideshow.current.children[0].offsetWidth;
-		slideshow.current.style.transform = `translateX(-${tamañoSlide}px)`;
+		const SlideSize = slideshow.current.children[0].offsetWidth;
+		slideshow.current.style.transform = `translateX(-${SlideSize}px)`;
 
 		setTimeout(() => {
 			slideshow.current.style.transition = `${speed}ms ease-out all`;
