@@ -39,7 +39,9 @@ export const home = [
         anchor: 'OUR WORK',
         style: {
             type: 'section',
-            class: 'red_slider_top',
+            class: 'forma',
+            top: 'top',
+            circle: 'bg_image',
             background: 'sections/our_work.jpg',
             position: 'center'
         }

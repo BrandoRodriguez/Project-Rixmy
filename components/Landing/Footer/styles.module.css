@@ -11,13 +11,7 @@
   justify-content: space-between;
   align-items: center;
   color: var(--red);
-  margin-top: -150px;
 }
-
-/* 
-.footer div:first-child {
-  width: 15%;
-} */
 
 .footer div:nth-child(2n) {
   display: flex;

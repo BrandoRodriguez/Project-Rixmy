@@ -10,13 +10,16 @@ function Section({ data }) {
   return (
 
     <section
-      className={`${styles.article} ${styles[data.style.class]}`}
-      style={{
-        background: `${data.style.position} url(/img/${data.style.background})`,
-        backgroundSize: 'cover'
-      }}
-    >
-      <div className={`${styles[data.style.circle]}`}>
+      className={`${styles.article} ${styles[data.style.top]} ${styles[data.style.class]} `}    >
+      <div className={`${styles[data.style.circle]}`}
+        style={{
+          backgroundImage: `url(/img/${data.style.background})`,
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          width: '100%',
+          height: '100vh'
+        }}
+      >
 
         <div className={styles.content}>
 
@@ -30,8 +33,8 @@ function Section({ data }) {
             }
             <span>{data.section}</span>
           </div>
-          
-            {/* TEXTO */}
+
+          {/* TEXTO */}
           <div>
 
             <h1>{data.title}</h1>
@@ -49,7 +52,7 @@ function Section({ data }) {
           </div>
 
         </div>
-        
+
       </div>
     </section>
 
