@@ -16,22 +16,41 @@ export const home = [
             position: 'center'
         }
     },
+    // {
+    //     id: 'services',
+    //     href: '#',
+    //     section: 'SERVICES',
+    //     title: 'What do we offer?',
+    //     description: 'Our services are adapted to the present day and are based on the fundamental pillars of Inbound Marketing. Rixmys goal is that your company, through intelligent strategies, has the ability to attract, convert, close and delight your customers.',
+    //     anchor: 'OUR SERVICES',
+    //     style: {
+    //         type: 'section',
+    //         class: '',
+    //         background: 'sections/services.jpg',
+    //         position: 'center',
+    //         content_padding_top: '',
+    //         content_padding_bottom: 'padding_bottom'
+    //     }
+    // },
     {
-        id: 'services',
+        id: '',
         href: '#',
-        section: 'SERVICES',
-        title: 'What do we offer?',
-        description: 'Our services are adapted to the present day and are based on the fundamental pillars of Inbound Marketing. Rixmys goal is that your company, through intelligent strategies, has the ability to attract, convert, close and delight your customers.',
-        anchor: 'OUR SERVICES',
+        section: '',
+        title: 'Evolve with us',
+        description: "We have the youth, experience and constant preparation to be avant-garde in the digital area. For this reason, we can offer our clients a quality service, according to their needs and expectations. Empathy with our clients allows us to obtain a situational analysis that effectively addresses the problem at its root.",
+        anchor: '',
         style: {
-            type: 'section',
+            type: 'slider',
             class: '',
-            background: 'sections/services.jpg',
-            position: 'center',
-            content_padding_top: '',
-            content_padding_bottom: 'padding_bottom'
+            background: [
+                'sections/services.jpg',
+                'sections/crisis.jpg',
+                'sections/new_challenges_motivate_us.jpg',
+            ],
+            position: 'center'
         }
     },
+
     {
         id: 'our-work',
         href: '#',
@@ -61,7 +80,7 @@ export const home = [
             circle: 'circle2',
             background: 'sections/news.jpg',
             position: 'center',
-            content_padding_top: 'padding_top',
+            content_padding_top: '',
         }
     },
     {
