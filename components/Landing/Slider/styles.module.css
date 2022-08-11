@@ -8,6 +8,7 @@
   height: 100vh;
   background: var(--red);
   color: var(--white);
+  z-index: 1;
 }
 
 .content {

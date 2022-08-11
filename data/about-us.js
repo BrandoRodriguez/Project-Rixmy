@@ -29,7 +29,6 @@ export const about_us = [
                 'sections/evolve_with_us.jpg',
                 'sections/crisis.jpg',
                 'sections/new_challenges_motivate_us.jpg',
-                'sections/expectations.jpg',
             ],
             position: 'center'
         }

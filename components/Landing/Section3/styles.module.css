@@ -27,6 +27,7 @@
   height: 100vh;
   margin-top: -50px;
   color: var(--white);
+  z-index: 2;
 }
 
 .content {
