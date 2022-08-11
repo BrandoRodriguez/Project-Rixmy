@@ -2,12 +2,8 @@ import React from 'react'
 import Slideshow from '../Slideshow'
 import Slide from '../Slide';
 
-export default function NewSlider({ images, controls, autoplay, speed, interval }) {
-
-    console.log('autoplay=', autoplay)
-    console.log('speed=', speed)
-    console.log('interval=', interval)
-
+export default function NewSlider({ contents, controls, autoplay, speed, interval }) {
+    
     return (
         <>
             <Slideshow
@@ -17,9 +13,9 @@ export default function NewSlider({ images, controls, autoplay, speed, interval 
                 interval={interval}
             >
                 {
-                    images.map((image, index) => {
+                    contents.map((content, index) => {
                         return (
-                            <Slide image={image} key= {index}/>
+                            <Slide content={content} key= {index}/>
                         )
                     })
                 }

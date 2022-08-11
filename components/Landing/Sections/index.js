@@ -10,14 +10,14 @@ function Sections({ pageData }) {
       {
         pageData.map((data, index) => {
 
-          if (data.style.type === 'section') {
-            return <Section key={index} data={data} />
+          if (data.type === 'section') {
+            return <Section key={index} data={data.contents[0]} />
           }
-          else if (data.style.type === 'section2') {
-            return <Section2 key={index} data={data} />
+          else if (data.type === 'section2') {
+            return <Section2 key={index} data={data.contents[0]} />
           }
-          else if (data.style.type === 'slider') {
-            return <Slider key={index} data={data} />
+          else if (data.type === 'slider') {
+            return <Slider key={index} data={data.contents} />
           }
 
         })

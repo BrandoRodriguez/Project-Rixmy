@@ -1,9 +1,10 @@
 import React from 'react'
 import styles from './styles.module.css'
-import ArrowRight from '../Icons/ArrowRight'
 import NewSlider from '../NewSlider/NewSlider'
 
 function Slider({ data }) {
+
+  console.log('slider')
 
   return (
 
@@ -11,7 +12,7 @@ function Slider({ data }) {
       className={`${styles.article} ${styles.slider}`}
     >
       <NewSlider
-        images={data.style.background}
+        contents={data}
         controls={true}
         autoplay={true}
         speed="1000"

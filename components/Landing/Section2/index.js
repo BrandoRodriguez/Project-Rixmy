@@ -4,9 +4,6 @@ import ArrowRight from '../Icons/ArrowRight'
 
 function Section2({ data }) {
 
-  const class_name = data.id.replace(/-/g, '_')
-  const section_name = class_name + '_section'
-
   return (
 
     <section
@@ -25,7 +22,7 @@ function Section2({ data }) {
             {/* left text */}
             <div className={styles.content_width}>
               {/* LOGO */}
-              <div className={styles[section_name]}>
+              <div>
                 {data.section &&
                   <img src="img/items/section_logo.svg" alt='section_logo'
                     width={86}
