@@ -21,9 +21,9 @@ function Section2({ data }) {
         <div className={styles.content}>
 
           <div className={styles.content_flex}>
-      
+
             {/* left text */}
-            <div>
+            <div className={styles.content_width}>
               {/* LOGO */}
               <div className={styles[section_name]}>
                 {data.section &&
@@ -35,7 +35,7 @@ function Section2({ data }) {
                 <span>{data.section}</span>
               </div>
 
-                {/* TEXTO */}
+              {/* TEXTO */}
               <div>
                 <h1>{data.title}</h1>
                 <p>
@@ -49,27 +49,27 @@ function Section2({ data }) {
                   </a>
                 }
               </div>
-              
+
             </div>
 
             {/* right text */}
-            <div>
+            <div className={styles.content_width1}>
 
               <h2 className={styles.h2}>{data.right_text.title}</h2>
               <div className={styles.content_flex1}>
 
                 {
-                  data.right_text.content.map(({subtitle, description}, index) => {
+                  data.right_text.content.map(({ subtitle, description }, index) => {
                     return (
-                    <div key={index}>
-                      <h3>
-                        {subtitle}
-                      </h3>
-                      <hr />
-                      <p>
-                        {description}
-                      </p>
-                    </div>
+                      <div key={index}>
+                        <h3>
+                          {subtitle}
+                        </h3>
+                        <hr />
+                        <p>
+                          {description}
+                        </p>
+                      </div>
                     )
                   })
                 }

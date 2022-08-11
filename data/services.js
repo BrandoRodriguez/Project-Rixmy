@@ -4,15 +4,16 @@ export const services = [
         id: '',
         href: '#',
         section: 'Our services ',
-        title: "Support of the Inbound Marketing methodology",
-        description: "With this type of procedure you will obtain greater engagement with your audience, increase traffic on your different platforms, achieve qualified leads, transmit confidence, demonstrate security, generate a community of loyal customers to your brand and all these advantages are transformed into a greater number of sales. ",
+        title: "Marketing methodology",
+        description: "increase traffic on your different platforms, achieve qualified leads, transmit confidence, demonstrate security, generate a community of loyal customers to your brand and all these advantages are transformed into a greater number of sales. ",
         anchor: '',
         style: {
             type: 'section',
-            class: 'red_bottom_right',
-            circle: 'circle',
+            class: '',
+            circle: '',
             background: 'sections/services.jpg',
-            position: 'center'
+            position: 'center',
+            content_padding_bottom: 'padding_bottom'
         }
     },
     {
@@ -24,7 +25,9 @@ export const services = [
         anchor: '',
         style: {
             type: 'section',
-            class: 'red_slider_top',
+            class: 'forma',
+            top: 'top',
+            circle: 'bg_image',
             background: 'sections/to_attract_your_buyer_persona.jpg',
             position: 'center'
         }
@@ -84,7 +87,8 @@ export const services = [
             type: 'section',
             class: '',
             background: 'sections/to_attract_your_buyer_persona_5.jpg',
-            position: 'center'
+            position: 'center',
+            content_padding_bottom: 'padding_bottom'
         }
     },
     {
@@ -96,7 +100,9 @@ export const services = [
         anchor: '',
         style: {
             type: 'section',
-            class: '',
+            class: 'forma',
+            top: 'top',
+            circle: 'bg_image',
             background: 'sections/to_convert_your_buyer_persona.jpg',
             position: 'center'
         }
@@ -141,7 +147,8 @@ export const services = [
             type: 'section',
             class: '',
             background: 'sections/other_services_2.jpg',
-            position: 'center'
+            position: 'center',
+            content_padding_bottom: 'padding_bottom'
         }
     },
     {
@@ -153,7 +160,9 @@ export const services = [
         anchor: '',
         style: {
             type: 'section',
-            class: '',
+            class: 'forma',
+            top: 'top',
+            circle: 'bg_image',
             background: 'sections/other_services_3.jpg',
             position: 'center'
         }

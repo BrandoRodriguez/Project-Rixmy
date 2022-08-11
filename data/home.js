@@ -27,7 +27,9 @@ export const home = [
             type: 'section',
             class: '',
             background: 'sections/services.jpg',
-            position: 'center'
+            position: 'center',
+            content_padding_top: '',
+            content_padding_bottom: 'padding_bottom'
         }
     },
     {
@@ -58,7 +60,8 @@ export const home = [
             class: 'red_top_right',
             circle: 'circle2',
             background: 'sections/news.jpg',
-            position: 'center'
+            position: 'center',
+            content_padding_top: 'padding_top',
         }
     },
     {

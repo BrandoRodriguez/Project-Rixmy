@@ -8,7 +8,6 @@ function Section({ data }) {
   const section_name = class_name + '_section'
 
   return (
-
     <section
       className={`${styles.article}  ${styles[data.style.class]} `}>
       <div className={`${styles[data.style.top]} ${styles[data.style.circle]}`}
@@ -18,7 +17,7 @@ function Section({ data }) {
           backgroundPosition: 'center',
         }}
       >
-        <div className={styles.content}>
+        <div className={`${styles.content} ${styles[data.style.content_padding_top]} ${styles[data.style.content_padding_bottom]}`}>
           <div className={styles[section_name]}>
             {data.section &&
               <img src="img/items/section_logo.svg" alt='section_logo'
@@ -40,7 +39,6 @@ function Section({ data }) {
                 {data.anchor}
               </a>
             }
-
           </div>
         </div>
       </div>

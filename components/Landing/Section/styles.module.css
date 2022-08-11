@@ -1,12 +1,9 @@
-/*****************************
-******* 5) Secciones *********
-*****************************/
-
 .article {
   position: relative;
   width: 100%;
   height: 100vh;
   color: var(--white);
+  z-index: 2;
 }
 
 .content {
@@ -47,11 +44,19 @@
   }
 }
 
-@media (min-width: 1600px) {
+@media (min-width: 1200px) {
   .content {
     width: 50%;
-    padding-bottom: 70px;
   }
+
+  .padding_top {
+    padding-top: 100px;
+  }
+
+  .padding_bottom {
+    padding-bottom: 200px;
+  }
+
 }
 
 .article>div>section:first-child {
@@ -226,6 +231,39 @@
     right: 120px;
   }
 
+  .red_top_right::after {
+    content: '';
+    position: absolute;
+    width: 150px;
+    height: 100%;
+    background: var(--red);
+    top: 0;
+    right: 0;
+    border-bottom-left-radius: 75px;
+  }
+
+  .red_top_right::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    background: var(--red);
+    top: 0;
+    right: 0;
+  }
+
+  .circle2::after {
+    content: '';
+    position: absolute;
+    transform: rotateZ(-90deg);
+    background: var(--red);
+    top: 70px;
+    right: 120px;
+    width: 200px;
+    height: 200px;
+    -webkit-mask-image: radial-gradient(circle 10px at 0 0, transparent 0, transparent 170px, black 60px);
+  }
+
   .article h1 {
     font-size: 62px;
     line-height: 68px;
@@ -243,7 +281,7 @@
   }
 
   .forma::before {
-    top: 0
+    top: -50px;
   }
 
   .bg_image {
@@ -251,7 +289,6 @@
   }
 
 }
-
 
 @media (min-width: 1600px) {
 
@@ -271,36 +308,20 @@
   }
 
   .red_top_right::after {
-    content: '';
-    position: absolute;
     width: 200px;
-    height: 100%;
-    background: var(--red);
-    top: 0;
-    right: 0;
     border-bottom-left-radius: 100px;
   }
 
   .red_top_right::before {
-    content: '';
-    position: absolute;
     width: 100%;
     height: 150px;
-    background: var(--red);
-    top: 0;
-    right: 0;
   }
 
   .circle2::after {
-    content: '';
-    position: absolute;
-    transform: rotateZ(-90deg);
-    background: var(--red);
     top: 120px;
     right: 170px;
     width: 200px;
     height: 200px;
-    -webkit-mask-image: radial-gradient(circle 10px at 0 0, transparent 0, transparent 170px, black 60px);
   }
 
   .article h1 {
@@ -327,5 +348,3 @@
   }
 
 }
-
-/*------------------*/

@@ -1,7 +1,6 @@
 import React from 'react'
 import Section from "../Section"
 import Section2 from "../Section2"
-import Section3 from "../Section3"
 import Slider from "../Slider"
 
 
@@ -16,9 +15,6 @@ function Sections({ pageData }) {
           }
           else if (data.style.type === 'section2') {
             return <Section2 key={index} data={data} />
-          }
-          else if (data.style.type === 'section3') {
-            return <Section3 key={index} data={data} />
           }
           else if (data.style.type === 'slider') {
             return <Slider key={index} data={data} />
