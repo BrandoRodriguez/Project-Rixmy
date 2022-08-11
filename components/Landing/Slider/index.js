@@ -10,13 +10,15 @@ function Slider({ data }) {
     <section
       className={`${styles.article} ${styles.slider}`}
     >
-        <NewSlider
-          images={data.style.background}
-          controls= {true}
-          autoplay= {true}
-          speed="1000"
-          interval="3500"
-        />
+      <NewSlider
+        images={data.style.background}
+        controls={true}
+        autoplay={true}
+        speed="1000"
+        interval="3500"
+      />
+
+
     </section>
 
   )
