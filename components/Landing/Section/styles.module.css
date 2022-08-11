@@ -239,11 +239,11 @@
   }
 
   .top {
-    top: -150px;
+    margin-top: -200px;
   }
 
   .forma::before {
-    top: 0;
+    top: 0
   }
 
   .bg_image {
@@ -312,6 +312,10 @@
     font-size: 20px;
     line-height: 30px;
     width: 70%;
+  }
+
+  .forma::before {
+    top: -150px;
   }
 
   .top {
