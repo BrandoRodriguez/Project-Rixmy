@@ -87,7 +87,7 @@ export const home = [
                 description: "We have the youth, experience and constant preparation to be avant-garde in the digital area. For this reason, we can offer our clients a quality service, according to their needs and expectations. Empathy with our clients allows us to obtain a situational analysis that effectively addresses the problem at its root.",
                 anchor: '',
                 style: {
-                    background: 'sections/new_challenges_motivate_us.jpg',
+                    background: 'sections/expectations.jpg',
                     position: 'center',
                 }
             }
