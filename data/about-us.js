@@ -120,7 +120,7 @@ export const about_us = [
         id: '',
         href: '#',
         section: 'What does your company get?',
-        title: 'leaders in digital marketing',
+        title: 'leaders in digital',
         description: 'We guarantee your growth and expand your optimization margins with the effectiveness of our processes',
         anchor: '',
         style: {
