@@ -1,5 +1,4 @@
 
-
 export const home = [
     {
         type: 'section',
