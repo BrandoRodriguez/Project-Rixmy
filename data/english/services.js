@@ -6,9 +6,9 @@ export const services = [
             {
                 id: '',
                 href: '#',
-                section: 'NUESTROS SERVICIOS',
-                title: "Respaldo de la metodología de Inbound Marketing",
-                description: "Con este tipo de procedimiento obtendrás mayor engagement con tu público, aumentas el tráfico en tus diferentes plataformas, logras leads cualificados, transmites confianza, demuestras seguridad, generas una comunidad de clientes fieles a tu marca y todo este cúmulo de ventajas se transforma en mayor número de ventas.",
+                section: 'Our services ',
+                title: "Marketing methodology",
+                description: "increase traffic on your different platforms, achieve qualified leads, transmit confidence, demonstrate security, generate a community of loyal customers to your brand and all these advantages are transformed into a greater number of sales. ",
                 anchor: '',
                 style: {
                     class: '',
@@ -26,9 +26,9 @@ export const services = [
             {
                 id: '',
                 href: '#',
-                section: 'Para atraer a tu buyer persona',
+                section: 'To attract your buyer persona',
                 title: "Branding",
-                description: "Hacemos que tu marca sea memorable, que tu público se conecte con tu identidad corporativa, con sus emociones y con tus diferentes líneas de productos o servicios. Logramos incorporar a tu organización al estilo de vida de los clientes.",
+                description: "We make your brand memorable, we make your audience connect with your corporate identity, with their emotions and with your different lines of products or services. We manage to incorporate your organization to the lifestyle of your customers.",
                 anchor: '',
                 style: {
                     class: 'forma',
@@ -46,9 +46,9 @@ export const services = [
             {
                 id: '',
                 href: '#',
-                section: 'Para atraer a tu buyer persona',
+                section: 'To attract your buyer persona',
                 title: "Social Media",
-                description: "Partimos de una estrategia dirigida a un público determinado y contamos con las herramientas idóneas pensada para cada plataforma social donde tu negocio se desenvuelva.",
+                description: "We start with a strategy aimed at a specific audience and we have the right tools for the different platforms suitable for your business. Our goal is to devise the magic of the new world of marketing to connect and incentivize concrete actions of your audience to satisfy the sales desires of our clients.",
                 anchor: '',
                 style: {
                     class: 'red_bottom_right',
@@ -65,9 +65,9 @@ export const services = [
             {
                 id: '',
                 href: '#',
-                section: 'Para atraer a tu buyer persona',
-                title: "Diseño audiovisual",
-                description: "Desarrollamos productos audiovisuales originales, de calidad y con tecnología moderna. Creamos estrategias para conectar con tu público por medio de historias que los identifique, promocionamos tu negocio, superamos tus expectativas y nuestro mensaje se queda en la memoria de tu target. Te podemos ayudar a crear videos corporativos y spots publicitarios. ",
+                section: 'To attract your buyer persona',
+                title: "Audiovisual design",
+                description: "We develop original audiovisual products, quality and modern technology. We create strategies to connect with your audience through stories that identify them, we promote your business, we present your products or services in a genuine way, expectations and we stay in the memory of your target. We can help you create corporate videos and commercials.",
                 anchor: '',
                 style: {
 
@@ -84,9 +84,9 @@ export const services = [
             {
                 id: '',
                 href: '#',
-                section: 'Para atraer a tu buyer persona',
-                title: "Publicidad Digital",
-                description: "Desarrollamos estrategias eficientes de inversión publicitaria digital que generen retorno positivo en nuestros clientes. El contenido orgánico genera valor, pero si deseas contar con mayor tráfico, seguidores y conversión necesitas invertir en publicidad digital.",
+                section: 'To attract your buyer persona',
+                title: "Digital Advertising",
+                description: "We develop efficient digital advertising investment strategies that generate positive returns for our clients. Organic content generates value, but if you want to have more traffic, followers and conversion you need to invest in digital advertising.",
                 anchor: '',
                 style: {
 
@@ -104,9 +104,9 @@ export const services = [
             {
                 id: '',
                 href: '#',
-                section: 'Para atraer a tu buyer persona',
+                section: 'To attract your buyer persona',
                 title: "Marketing de influencers",
-                description: "Es una estrategia que ayuda a generar ROI (retorno de la inversión) de forma considerable. Elegimos al representante de marca que más confianza pueda generar a tu público y proyecte una buena imagen, con la finalidad de persuadir a sus seguidores a favor de tu producto o empresa.",
+                description: "It is a strategy that helps to generate ROI (return on investment) in a considerable way. We choose the brand representative who can generate the most confidence in your audience and project a good image, in order to persuade their followers in favor of your product or company.",
                 anchor: '',
                 style: {
                     class: '',
@@ -123,9 +123,9 @@ export const services = [
             {
                 id: '',
                 href: '#',
-                section: 'Para convertir a tu buyer persona',
-                title: "Experiencia de usuarios (UI Y Ux)",
-                description: "Dejamos atrás los sistemas obsoletos para generar valor en el público que visita tu web. Empleamos diseño UI y UX para ofrecer mayor claridad en el proceso de navegación. Además, empleamos estrategias de Inbound Marketing para que el contenido enganche al público, se logre más tráfico, conversiones y se conviertan en promotores de tu marca.",
+                section: 'To convert your buyer persona',
+                title: "UI / UX",
+                description: "We leave behind obsolete systems to generate value in the public that visits your website. We use UI and UX design to offer greater clarity in the navigation process. In addition, we use Inbound Marketing strategies so that the content engages the public, achieving more traffic, conversions and become promoters of your brand.",
                 anchor: '',
                 style: {
                     class: 'forma',
@@ -143,9 +143,9 @@ export const services = [
             {
                 id: '',
                 href: '#',
-                section: 'Para cerrar las ventas con tu buyer persona',
-                title: "Campañas Mail Marketing",
-                description: "Por medio del correo electrónico generamos contenido de valor para mantener el interés de tu público, consolidar relaciones de fidelización duraderas y generar más ganancias.",
+                section: 'To close sales with your buyer persona',
+                title: "Mail Marketing Campaigns",
+                description: "Through email we generate valuable content to keep your audience engaged, build lasting relationships and generate more revenue.",
                 anchor: '',
                 style: {
                     class: 'red_bottom_right',
@@ -162,9 +162,9 @@ export const services = [
             {
                 id: '',
                 href: '#',
-                section: 'Para cerrar las ventas con tu buyer persona',
-                title: "Automatización de procesos de ventas",
-                description: "Con las técnicas y herramientas de Inbound Marketing le garantizamos a nuestros clientes un proceso más automatizado y personalizado según sus prioridades.",
+                section: 'To close sales with your buyer persona',
+                title: "Automation of sales processes",
+                description: "With Inbound Marketing techniques and tools we guarantee our clients a more automated and personalized process according to their priorities.",
                 anchor: '',
                 style: {
                     class: '',
@@ -180,9 +180,9 @@ export const services = [
             {
                 id: '',
                 href: '#',
-                section: 'OTROS SERVICIOS',
-                title: "Consultoría de Marketing",
-                description: "Te ayudamos a generar estrategias creativas y atractivas para tu cliente. Nos enfocamos en aquellas organizaciones que desean expandirse en el mercado internacional.",
+                section: 'Other services',
+                title: "Marketing Consulting",
+                description: "We help you generate creative and attractive strategies for your client. We focus on those organizations that wish to expand in the international market.",
                 anchor: '',
                 style: {
                     class: '',
@@ -199,9 +199,9 @@ export const services = [
             {
                 id: '',
                 href: '#',
-                section: 'OTROS SERVICIOS',
-                title: "Desarrollo WEB",
-                description: "Para brindar una imagen profesional a tus clientes, necesitas un sitio web que se parezca a lo que deseas proyectar. Creamos páginas webs optimizadas, atractivas y que mejoren la experiencia del usuario.",
+                section: 'Other services',
+                title: "WEB Development",
+                description: "To provide a professional image to your clients, you need a website that looks like what you want to project. We create websites that are optimized, attractive and enhance the user experience.",
                 anchor: '',
                 style: {
                     class: 'forma',
@@ -219,9 +219,9 @@ export const services = [
             {
                 id: '',
                 href: '#',
-                section: 'Posiciona tu marca',
-                title: "Contenido de valor SEO y SEM",
-                description: "Estamos seguros que deseas estar en los primeros lugares de los buscadores más reconocidos en internet. Igualmente, te ayudamos a llegar al público de tu interés, ya que contamos con un equipo especializado en SEO y en campañas SEM.",
+                section: 'To close sales with your buyer persona',
+                title: "seo and sem",
+                description: "With Inbound Marketing techniques and tools we guarantee our clients a more automated and personalized process according to their priorities.",
                 anchor: '',
                 style: {
                     class: '',

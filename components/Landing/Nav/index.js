@@ -10,32 +10,32 @@ function NavDisplay({ state }) {
       <ul>
         <li className={styles.dropdown}>
           <Link href='/'>
-            <a>HOME</a>
+            <a>INICIO</a>
           </Link>
           {/* <hr /> */}
           <span className={styles.dropdown_content}>
-            <a href="">OUR APPROACH</a>
-            <a href="">OUR TEAM</a>
+            <a href="">NUESTRO ENFOQUE</a>
+            <a href="">NUESTRO EQUIPO</a>
           </span>
         </li>
         <li className={styles.dropdown}>
           <Link href={'/about-us'}>
-            <a>ABOUT US</a>
+            <a>NOSOTROS</a>
           </Link>
         </li>
         <li>
-          <a href="">SERVICES</a>
+          <a href="">SERVICIOS</a>
         </li>
         <li>
-          <a href="">OUR WORK</a>
+          <a href="">NUESTRO TRABAJO</a>
         </li>
         <li>
           <Link href="/blog">
-            <a href="">NEWS &amp; INSIGHTS</a>
+            <a href="">NOTICIAS</a>
           </Link>
         </li>
         <li>
-          <a href="">CAREERS</a>
+          <a href="">TRABAJA CON NOSOTROS</a>
         </li>
       </ul>
     </div>
@@ -85,7 +85,7 @@ function Nav() {
 
           </li>
           <li className={styles.contact}>
-            <a href="#">CONTACT US</a>
+            <a href="#">CONTÁCTANOS</a>
           </li>
         </ul>
       </nav>

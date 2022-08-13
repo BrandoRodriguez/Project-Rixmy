@@ -6,10 +6,10 @@ export const home = [
             {
                 id: 'about-us',
                 href: '#',
-                section: 'NOSOTROS',
-                title: 'Nos enfocamos en las oportunidades de crecimiento para tu negocio.',
-                description: 'En medio de una crisis global, nuestro equipo de profesionales a través de las estrategias de Inbound Marketing y la metodología de Rixmy posee las herramientas para superar tus expectativas.',
-                anchor: 'Bienvenido a Rixmy',
+                section: 'ABOUT US',
+                title: 'We focus on growth opportunities for your business.',
+                description: 'In the midst of a global crisis, our team of professionals, through Inbound Marketing strategies and Rixmys methodology, has the tools to exceed your expectations. ',
+                anchor: 'WELCOME TO RIXMY',
                 style: {
                     class: 'red_bottom_right',
                     circle: 'circle',
@@ -25,9 +25,9 @@ export const home = [
             {
                 id: 'services',
                 href: '#',
-                section: 'SERVICIOS',
-                title: '¿Qué ofrecemos?',
-                description: 'Nuestros servicios se adecúan a la actualidad y parten de los pilares fundamentales de Inbound Marketing. El objetivo de Rixmy es que tu empresa a través de estrategias inteligentes, tenga la capacidad de atraer, convertir, cerrar y deleitar a tus clientes.',
+                section: 'SERVICES',
+                title: 'What do we offer?',
+                description: 'Our services are adapted to the present day and are based on the fundamental pillars of Inbound Marketing. Rixmys goal is that your company, through intelligent strategies, has the ability to attract, convert, close and delight your customers.',
                 anchor: 'OUR SERVICES',
                 style: {
                     class: '',
@@ -98,10 +98,10 @@ export const home = [
             {
                 id: 'our-work',
                 href: '#',
-                section: 'NUESTRO TRABAJO',
-                title: 'Potenciamos tu marca',
-                description: "La metodología de Rixmy le otorga el valor y la calidad que merece tu marca, para ello, todos nuestros procedimientos son evaluados por nuestro equipo de profesionales. Queremos fortalecer tu área de marketing y facilitar todos los procedimientos a través de la tecnología.",
-                anchor: 'NUESTRO TRABAJO',
+                section: 'OUR WORK',
+                title: 'WE ENHANCE YOUR BRAND',
+                description: "Rixmy's methodology gives you the value and quality that your brand deserves, for this, all our procedures are evaluated by our team of professionals. We want to strengthen your marketing area and facilitate all procedures through technology.",
+                anchor: 'OUR WORK',
                 style: {
                     class: 'forma',
                     top: 'top',
@@ -118,10 +118,10 @@ export const home = [
             {
                 id: 'news',
                 href: '#',
-                section: 'NOTICIAS',
-                title: 'Servicios de Inbound Marketing: Expande tu empresa',
-                description: "En la actualidad los clientes evolucionaron y ya saben cómo buscar en las plataformas digitales lo que desean sin mucho esfuerzo. Sin embargo, necesitan compañía durante el proceso de compra y estrategias de Inbound Marketing que puedan influir en la adquisición del producto.",
-                anchor: 'VER MÁS',
+                section: 'NEWS',
+                title: 'Future focus 2021: Accelerated branding',
+                description: "Today's customers have evolved and already know how to search digital platforms for what they want without much effort. However, they need companionship during the purchase process and Inbound Marketing strategies that can influence product acquisition.",
+                anchor: 'SEE MORE',
                 style: {
                     class: 'red_top_right',
                     circle: 'circle2',
@@ -138,10 +138,10 @@ export const home = [
             {
                 id: 'work-with-us',
                 href: '#',
-                section: 'TRABAJA CON NOSOTROS',
-                title: "¿Quieres pertenecer a un equipo de campeones?",
-                description: "AprovechaH esta oportunidad buscamos profesionales que desean crecer con nosotros y ganar conocimiento. Tendrás la oportunidad de avanzar y desarrollarte en diferentes áreas de acción de Rixmy. ",
-                anchor: 'EXPLORA AHORA',
+                section: 'WORK WITH US',
+                title: "Do you want to belong to a team of champions?",
+                description: "Take advantage of this opportunity, we are looking for professionals who want to grow with us and gain knowledge. You will have the opportunity to advance and develop in different areas of action of Rixmy.",
+                anchor: 'EXPLORE NOW',
                 style: {
                     class: '',
                     background: 'sections/work_with_us.jpg',

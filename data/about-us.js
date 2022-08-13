@@ -6,9 +6,9 @@ export const about_us = [
             {
                 id: '',
                 href: '#',
-                section: 'More than a marketing agency',
+                section: 'MÁS QUE UNA AGENCIA DE MARKETING',
                 title: "",
-                description: 'We are a network that allows you to connect with your audience, through strategies and digital products designed by our multidisciplinary team of professionals.',
+                description: 'Somos una red que te permite conectar con tu público, a través de las estrategias y los productos digitales ideados por nuestro equipo multidisciplinario de profesionales.',
                 anchor: '',
                 style: {
                     class: 'red_top_right',
@@ -26,8 +26,8 @@ export const about_us = [
                 id: '',
                 href: '#',
                 section: '',
-                title: 'Evolve with us',
-                description: "We have the youth, experience and constant preparation to be avant-garde in the digital area. For this reason, we can offer our clients a quality service, according to their needs and expectations. Empathy with our clients allows us to obtain a situational analysis that effectively addresses the problem at its root.",
+                title: 'Evoluciona con nosotros',
+                description: "Contamos con la juventud, la experiencia y la preparación constante para ser vanguardistas en el área digital. Por esta razón, podemos ofrecerles a nuestros clientes un servicio de calidad, de acorde a sus necesidades y expectativas. La empatía con nuestros clientes nos permite obtener un análisis situacional que aborde de forma efectiva el problema desde la raíz. ",
                 anchor: '',
                 style: {
                     background: 'sections/evolve_with_us.jpg',
@@ -38,8 +38,8 @@ export const about_us = [
                 id: '',
                 href: '#',
                 section: '',
-                title: 'Evolve with us',
-                description: "We have the youth, experience and constant preparation to be avant-garde in the digital area. For this reason, we can offer our clients a quality service, according to their needs and expectations. Empathy with our clients allows us to obtain a situational analysis that effectively addresses the problem at its root.",
+                title: 'Evoluciona con nosotros',
+                description: "Contamos con la juventud, la experiencia y la preparación constante para ser vanguardistas en el área digital. Por esta razón, podemos ofrecerles a nuestros clientes un servicio de calidad, de acorde a sus necesidades y expectativas. La empatía con nuestros clientes nos permite obtener un análisis situacional que aborde de forma efectiva el problema desde la raíz. ",
                 anchor: '',
                 style: {
                     background: 'sections/crisis.jpg',
@@ -50,8 +50,8 @@ export const about_us = [
                 id: '',
                 href: '#',
                 section: '',
-                title: 'Evolve with us',
-                description: "We have the youth, experience and constant preparation to be avant-garde in the digital area. For this reason, we can offer our clients a quality service, according to their needs and expectations. Empathy with our clients allows us to obtain a situational analysis that effectively addresses the problem at its root.",
+                title: 'Evoluciona con nosotros',
+                description: "Contamos con la juventud, la experiencia y la preparación constante para ser vanguardistas en el área digital. Por esta razón, podemos ofrecerles a nuestros clientes un servicio de calidad, de acorde a sus necesidades y expectativas. La empatía con nuestros clientes nos permite obtener un análisis situacional que aborde de forma efectiva el problema desde la raíz. ",
                 anchor: '',
                 style: {
                     background: 'sections/new_challenges_motivate_us.jpg',
@@ -62,8 +62,8 @@ export const about_us = [
                 id: '',
                 href: '#',
                 section: '',
-                title: 'Evolve with us',
-                description: "We have the youth, experience and constant preparation to be avant-garde in the digital area. For this reason, we can offer our clients a quality service, according to their needs and expectations. Empathy with our clients allows us to obtain a situational analysis that effectively addresses the problem at its root.",
+                title: 'Evoluciona con nosotros',
+                description: "Contamos con la juventud, la experiencia y la preparación constante para ser vanguardistas en el área digital. Por esta razón, podemos ofrecerles a nuestros clientes un servicio de calidad, de acorde a sus necesidades y expectativas. La empatía con nuestros clientes nos permite obtener un análisis situacional que aborde de forma efectiva el problema desde la raíz. ",
                 anchor: '',
                 style: {
                     background: 'sections/expectations.jpg',
@@ -78,10 +78,10 @@ export const about_us = [
             {
                 id: '',
                 href: '#',
-                section: 'Crisis?',
-                title: 'Opportunity to move forward',
-                description: 'In such a convulsed market we learned how to improve marketing strategies and techniques to become the solution your company needs.',
-                anchor: 'OUR SERVICES',
+                section: '¿CRISIS?',
+                title: 'Oportunidad de avanzar',
+                description: 'En un mercado tan convulsionado aprendimos a mejorar estrategias y técnicas de marketing para convertirnos en la solución que necesita tu empresa.  ',
+                anchor: 'NUESTROS SERVICIOS',
                 style: {
                     class: 'forma',
                     top: 'top',
@@ -98,9 +98,9 @@ export const about_us = [
             {
                 id: '',
                 href: '#',
-                section: 'New challenges motivate us',
-                title: 'Our Mission',
-                description: "To strengthen our clients' brands in the market, through a market, by means of a solid, responsible communication structure, strengthened by our digital marketing with our digital marketing services and technological technological solutions.",
+                section: 'NUEVOS RETOS NOS MOTIVAN',
+                title: 'Nuestra Mision',
+                description: "Potenciar las marcas de nuestros clientes en el mercado, por medio de una estructura de comunicación sólida, responsable, fortalecida con nuestros servicios de marketing  y soluciones digitales.",
                 anchor: '',
                 style: {
                     class: '',
@@ -111,20 +111,20 @@ export const about_us = [
                     title: '',
                     content: [
                         {
-                            subtitle: '11+',
-                            description: "Experts on our Staff"
+                            subtitle: 'Más de 11',
+                            description: "Expertos en nuestro staff"
                         },
                         {
-                            subtitle: '10+',
-                            description: "Digital Marketing Areas Covered"
+                            subtitle: 'Más de 10',
+                            description: "Áreas de marketing digital cubiertas"
                         },
                         {
                             subtitle: '10',
-                            description: "Strategic Services for your Company"
+                            description: "Servicios estratégicos para tu empresa"
                         },
                         {
-                            subtitle: '1 Method + 1 Formula',
-                            description: "We add Value to your Company"
+                            subtitle: '1 Método + 1 Fórmula',
+                            description: "Le agregamos a valor a tu empresa"
                         }
                     ]
                 }
@@ -137,9 +137,9 @@ export const about_us = [
             {
                 id: '',
                 href: '#',
-                section: 'expectations',
-                title: 'Our Vision',
-                description: 'To be world leaders in digital marketing solutions, to become the stoic support for the growth of each of our clients.',
+                section: 'EXPECTATIVAS',
+                title: 'Nuestra Vision',
+                description: 'Ser líderes mundiales en soluciones de marketing digital, convertirnos en el soporte estoico del crecimiento de cada uno de nuestros clientes.',
                 anchor: '',
                 style: {
 
@@ -149,19 +149,19 @@ export const about_us = [
                     position: 'center'
                 },
                 right_text: {
-                    title: 'How will we achieve this?',
+                    title: '¿Cómo lo lograremos?',
                     content: [
                         {
-                            subtitle: 'Creativity',
-                            description: "We are passionate about Digital Marketing"
+                            subtitle: 'Creatividad',
+                            description: "Nos apasiona el Marketing Digital"
                         },
                         {
-                            subtitle: 'Empathy',
-                            description: "Through active listening and the right diagnostic tools, we will find the best solution to the problem your company is facing."
+                            subtitle: 'Empatía',
+                            description: "Por medio de la escucha activa y de las herramientas de diagnóstico adecuado, tendremos la mejor solución al problema que enfrenta tu empresa.                            "
                         },
                         {
-                            subtitle: 'Fidelity',
-                            description: "We respect all established agreements and commitments. Through active listening and the right diagnostic tools, we will find the best solution to the problem your company is facing."
+                            subtitle: 'Fidelidad',
+                            description: "Respetamos todos los acuerdos y compromisos establecidos. Por medio de la escucha activa y de las herramientas de diagnóstico adecuado, tendremos la mejor solución al problema que enfrenta tu empresa."
                         }
                     ]
                 }
@@ -174,9 +174,9 @@ export const about_us = [
             {
                 id: '',
                 href: '#',
-                section: 'What does your company get?',
-                title: 'leaders in digital',
-                description: 'We guarantee your growth and expand your optimization margins with the effectiveness of our processes',
+                section: '¿Qué obtiene tu empresa?',
+                title: 'Ventajas al contratarnos',
+                description: 'Somos garantía en tu crecimiento y ampliamos tus márgenes de optimización con la efectividad de nuestros procesos.',
                 anchor: '',
                 style: {
                     class: '',
@@ -187,20 +187,28 @@ export const about_us = [
                     title: '',
                     content: [
                         {
-                            subtitle: 'Market research',
-                            description: "We have an exclusive team for market research and analysis. "
+                            subtitle: 'Investigamos el mercado',
+                            description: "Contamos con un equipo exclusivo para el estudio y análisis de mercado."
                         },
                         {
-                            subtitle: 'We capture opportunities',
-                            description: "Countries we call home"
+                            subtitle: 'Captamos las oportunidades',
+                            description: "Países que llamamos hogar"
                         },
                         {
-                            subtitle: 'Profile of your buyer persona',
-                            description: "We know the characteristics of the buyer persona of our customers."
+                            subtitle: 'Perfil de tu buyer persona',
+                            description: "Conocemos las características del buyer persona de nuestros clientes."
                         },
                         {
-                            subtitle: 'We capture opportunities',
-                            description: "We help our clients capture opportunities through our technology and marketing tools."
+                            subtitle: 'Captamos las oportunidades',
+                            description: "Ayudamos a nuestros clientes a captar las oportunidades a través de nuestras herramientas tecnológicas y de marketing."
+                        },
+                        {
+                            subtitle: 'Nos conectamos con tu target',
+                            description: "A través de nosotros estarás más conectado con tus clientes."
+                        },
+                        {
+                            subtitle: 'Crecemos junto a ti',
+                            description: "Somos tu compañía en todo tu proceso de evolución."
                         }
                     ]
                 }
