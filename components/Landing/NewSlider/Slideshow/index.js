@@ -26,9 +26,8 @@ export default function Slideshow ({
 
 	const nextSlide = useCallback(() => {
 
-		if (slideshow.current.children.length === 0) {
-			return
-		}
+		if (!slideshow.current) return
+		if (slideshow.current.children.length === 0) return
 
 		const firstElement = slideshow.current.children[0];
 		slideshow.current.style.transition = `${speed}ms ease-out all`;
@@ -52,9 +51,8 @@ export default function Slideshow ({
 
 	const previousSlide = () => {
 
-		if (slideshow.current.children.length === 0) {
-			return
-		}
+		if (slideshow.current.children.length === 0) return
+		
 		const index = slideshow.current.children.length - 1;
 		const lastElement = slideshow.current.children[index];
 		slideshow.current.insertBefore(lastElement, slideshow.current.firstChild);
@@ -77,18 +75,6 @@ export default function Slideshow ({
 			intervalSlideshow.current = setInterval(() => {
 				nextSlide();
 			}, interval);
-
-			// Slider does not move while the cursor is on it
-
-			// slideshow.current.addEventListener('mouseenter', () => {
-			// 	clearInterval(intervalSlideshow.current);
-			// });
-
-			// slideshow.current.addEventListener('mouseleave', () => {
-			// 	intervalSlideshow.current = setInterval(() => {
-			// 		nextSlide()
-			// 	}, interval)
-			// });
 		}
 	}, [autoplay, interval, nextSlide]);
 

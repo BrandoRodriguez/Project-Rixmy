@@ -16,8 +16,8 @@ function Article({ article }) {
                             <span className={styles.date}>
                                 20 <small>may</small>
                             </span>
-                            {/* <img src={imageUrl} alt="featured img">
-                            </img> */}
+                            <img src={imageUrl} alt="featured img">
+                            </img>
                         </a>
                     </Link>
 

@@ -12,19 +12,19 @@ import { getStrapiMedia } from "../lib/media"
 export const GlobalContext = createContext({})
 
 const MyApp = ({ Component, pageProps }) => {
-  const { global } = pageProps
+  // const { global } = pageProps
 
   return (
     <>
       <Head>
         <link
           rel="shortcut icon"
-          href={getStrapiMedia(global.attributes.favicon)}
+          // href={getStrapiMedia(global.attributes.favicon)}
         />
       </Head>
-      <GlobalContext.Provider value={global.attributes}>
+      {/* <GlobalContext.Provider value={global.attributes}> */}
         <Component {...pageProps} />
-      </GlobalContext.Provider>
+      {/* </GlobalContext.Provider> */}
     </>
   )
 }
@@ -37,17 +37,23 @@ const MyApp = ({ Component, pageProps }) => {
 MyApp.getInitialProps = async (ctx) => {
   // Calls page's `getInitialProps` and fills `appProps.pageProps`
 
+  console.log('haciendo peticion global')
 
   const appProps = await App.getInitialProps(ctx)
-  // Fetch global site settings from Strapi
-  const globalRes = await fetchAPI("/global", {
-    populate: {
-      favicon: "*",
-      defaultSeo: {
-        populate: "*",
-      },
-    },
-  })
+  // // Fetch global site settings from Strapi
+  // const globalRes = await fetchAPI("/global", {
+  //   populate: {
+  //     favicon: "*",
+  //     defaultSeo: {
+  //       populate: "*",
+  //     },
+  //   },
+  // })
+
+  const globalRes= {
+    data: ''
+  }
+
   // Pass the data to our page via props
   return { ...appProps, pageProps: { global: globalRes.data } }
 }
