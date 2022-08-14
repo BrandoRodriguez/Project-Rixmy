@@ -7,33 +7,44 @@ const Blog = ({ articles, categories, homepage }) => {
 
     return (
         <Layout>
-            {/* <Seo seo={homepage.attributes.seo}/> */}
+            <Seo seo={homepage.attributes.seo}/>
             <Articles articles={articles}/>
-            {/* <Articles articles={} /> */}
         </Layout>
     )
 }
 
 export async function getStaticProps() {
   // Run API calls in parallel
-  const [articlesRes, categoriesRes, homepageRes] = await Promise.all([
-      fetchAPI("/articles", { populate: "*" }),
-      fetchAPI("/categories", { populate: "*" }),
-      fetchAPI("/homepage", {
-          populate: {
-              hero: "*",
-              seo: { populate: "*" },
-          },
-      }),
-  ])
+  try {
+    const [articlesRes, categoriesRes, homepageRes] = await Promise.all([
+        fetchAPI("/articles", { populate: "*" }),
+        fetchAPI("/categories", { populate: "*" }),
+        fetchAPI("/homepage", {
+            populate: {
+                hero: "*",
+                seo: { populate: "*" },
+            },
+        }),
+    ])
 
-  return {
-      props: {
-          articles: articlesRes.data,
-          categories: categoriesRes.data,
-          homepage: homepageRes.data,
-      },
-      revalidate: 1,
+    return {
+        props: {
+            articles: articlesRes.data,
+            categories: categoriesRes.data,
+            homepage: homepageRes.data,
+        },
+        revalidate: 1,
+    }
+  }
+  catch {
+    return {
+        props: {
+            articles: '',
+            categories: '',
+            homepage: '',
+        },
+        revalidate: 1,
+    }
   }
 }
 

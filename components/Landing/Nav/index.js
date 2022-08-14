@@ -24,7 +24,9 @@ function NavDisplay({ state }) {
           </Link>
         </li>
         <li>
-          <a href="">SERVICIOS</a>
+          <Link href={'/services'}>
+            <a href="">SERVICIOS</a>
+          </Link>
         </li>
         <li>
           <a href="">NUESTRO TRABAJO</a>
