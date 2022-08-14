@@ -1,4 +1,4 @@
-
+import { fetchAPI } from "../../../lib/api"
 import Seo from "../../../components/seo"
 import { getStrapiMedia } from "../../../lib/media"
 
