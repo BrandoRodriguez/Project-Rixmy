@@ -1,4 +1,3 @@
-
 import Seo from "../../../components/seo"
 import { getStrapiMedia } from "../../../lib/media"
 import { fetchAPI } from '../../../lib/api';
@@ -6,7 +5,6 @@ import Layout from '../../../components/Layout';
 import ReactMarkdown from "react-markdown"
 import Moment from "react-moment"
 import rehypeRaw from 'rehype-raw'
-
 
 function Article({ article, categories }) {
 
@@ -20,6 +18,7 @@ function Article({ article, categories }) {
   }
 
   return (
+    
     <Layout>
       <Seo seo={seo} />
       <img src={imageUrl} alt="" />
