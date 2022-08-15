@@ -1,12 +1,19 @@
 import Article from '../Article'
+import styles from './style.module.css'
 
-function Articles({articles}) {
+
+
+function Articles({ articles }) {
 
   return (
     <>
-      { articles.map( article => {
-        return (<Article key={article.id} article={article}/>)
-      })}
+      <section className={styles.section_blog}>
+        {articles.map(article => {
+          return (<Article key={article.id} article={article} />)
+        })}
+      </section>
+
+
     </>
   )
 }

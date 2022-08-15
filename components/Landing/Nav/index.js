@@ -13,10 +13,10 @@ function NavDisplay({ state }) {
             <a>INICIO</a>
           </Link>
           {/* <hr /> */}
-          <span className={styles.dropdown_content}>
+          {/* <span className={styles.dropdown_content}>
             <a href="">NUESTRO ENFOQUE</a>
             <a href="">NUESTRO EQUIPO</a>
-          </span>
+          </span> */}
         </li>
         <li className={styles.dropdown}>
           <Link href={'/about-us'}>
@@ -55,13 +55,17 @@ function Nav() {
   return (
     <>
       <nav className={styles.navigation}>
-        <img
-          className={styles.logo}
-          src="/img/rixmy_logo.svg"
-          alt='rixmy'
-          width={100}
-          height={100}
-        />
+        <Link href="/">
+          <a>
+            <img
+              className={styles.logo}
+              src="/img/rixmy_logo.svg"
+              alt='rixmy'
+              width={100}
+              height={100}
+            />
+          </a>
+        </Link>
         <ul>
           <li>
             <a href="#" className={styles.lenguage}>
