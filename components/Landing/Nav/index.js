@@ -37,7 +37,9 @@ function NavDisplay({ state }) {
           </Link>
         </li>
         <li>
-          <a href="">TRABAJA CON NOSOTROS</a>
+          <Link href="/about">
+            <a href="">TRABAJA CON NOSOTROS</a>
+          </Link>
         </li>
       </ul>
     </div>

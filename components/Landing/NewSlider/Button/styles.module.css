@@ -12,15 +12,15 @@
 }
 
 .boton path {
-	
+
 	/* if props.right */
 	filter: drop-shadow(-2px 0px 0px #fff);
 	/* filter: drop-shadow(2px 0px 0px #fff); */
 }
 
-.boton:hover {
+/* .boton:hover {
 	background: rgba(0,0,0,.2);
-}
+} */
 
 .boton:hover path {
 	fill: #fff;
