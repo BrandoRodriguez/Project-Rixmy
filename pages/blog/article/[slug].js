@@ -1,14 +1,9 @@
 import Seo from "../../../components/seo"
-import { getStrapiMedia } from "../../../lib/media"
 import { fetchAPI } from '../../../lib/api';
 import Layout from '../../../components/Layout';
-import ReactMarkdown from "react-markdown"
-import Moment from "react-moment"
-import rehypeRaw from 'rehype-raw'
+import ArticleDescription from '../../../components/Blog/ArticleDescription';
 
 function Article({ article, categories }) {
-
-  const imageUrl = getStrapiMedia(article.attributes.image)
 
   const seo = {
     metaTitle: article.attributes.title,
@@ -18,23 +13,10 @@ function Article({ article, categories }) {
   }
 
   return (
-    
     <Layout>
       <Seo seo={seo} />
-      <img src={imageUrl} alt="" />
-
-      <ReactMarkdown
-        rehypePlugins={[rehypeRaw]}
-        // eslint-disable-next-line react/no-children-prop
-        children ={article.attributes.content}
-      />
-
-      <Moment format="MMM Do YYYY">
-        {article.attributes.published_at}
-      </Moment>
-
+      <ArticleDescription article={article} />
     </Layout>
-
   )
 }
 
@@ -52,13 +34,16 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params }) {
-  const articlesRes = await fetchAPI("/articles", {
-    filters: {
-      slug: params.slug,
-    },
-    populate: "*",
-  })
-  const categoriesRes = await fetchAPI("/categories")
+
+  const [articlesRes, categoriesRes] = await Promise.all([
+    fetchAPI("/articles", {
+      filters: {
+        slug: params.slug,
+      },
+      populate: "*",
+    }),
+    fetchAPI("/categories")
+  ])
 
   return {
     props: {
