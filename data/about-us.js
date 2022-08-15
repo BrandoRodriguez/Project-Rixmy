@@ -32,6 +32,8 @@ export const about_us = [
                 style: {
                     background: 'sections/evolve_with_us.jpg',
                     position: 'center',
+                    content_padding_top: '',
+                    content_padding_bottom: 'padding_bottom'
                 }
             },
             {
@@ -42,32 +44,10 @@ export const about_us = [
                 description: "Contamos con la juventud, la experiencia y la preparación constante para ser vanguardistas en el área digital. Por esta razón, podemos ofrecerles a nuestros clientes un servicio de calidad, de acorde a sus necesidades y expectativas. La empatía con nuestros clientes nos permite obtener un análisis situacional que aborde de forma efectiva el problema desde la raíz. ",
                 anchor: '',
                 style: {
-                    background: 'sections/crisis.jpg',
+                    background: 'sections/evolve_with_us.jpg',
                     position: 'center',
-                }
-            },
-            {
-                id: '',
-                href: '#',
-                section: '',
-                title: 'Evoluciona con nosotros',
-                description: "Contamos con la juventud, la experiencia y la preparación constante para ser vanguardistas en el área digital. Por esta razón, podemos ofrecerles a nuestros clientes un servicio de calidad, de acorde a sus necesidades y expectativas. La empatía con nuestros clientes nos permite obtener un análisis situacional que aborde de forma efectiva el problema desde la raíz. ",
-                anchor: '',
-                style: {
-                    background: 'sections/new_challenges_motivate_us.jpg',
-                    position: 'center',
-                }
-            },
-            {
-                id: '',
-                href: '#',
-                section: '',
-                title: 'Evoluciona con nosotros',
-                description: "Contamos con la juventud, la experiencia y la preparación constante para ser vanguardistas en el área digital. Por esta razón, podemos ofrecerles a nuestros clientes un servicio de calidad, de acorde a sus necesidades y expectativas. La empatía con nuestros clientes nos permite obtener un análisis situacional que aborde de forma efectiva el problema desde la raíz. ",
-                anchor: '',
-                style: {
-                    background: 'sections/expectations.jpg',
-                    position: 'center',
+                    content_padding_top: '',
+                    content_padding_bottom: 'padding_bottom'
                 }
             }
         ]
