@@ -37,14 +37,14 @@
   clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 7%, 50% 7%, 50% 0);
 }
 
-@media (min-width: 1023px) {
+@media (min-width: 1024px) {
   .content {
     width: 70%;
     padding-left: 80px;
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1700px) {
   .content {
     width: 50%;
   }
@@ -85,7 +85,7 @@
 }
 
 .article h1 {
-  font-size: 32px;
+  font-size: 30px;
   line-height: 42px;
   margin: 25px 0;
   text-transform: uppercase;
@@ -212,7 +212,7 @@
 }
 
 
-@media (min-width: 1023px) {
+@media (min-width: 1150px) {
   .red_bottom_right::after {
     width: 150px;
     border-top-left-radius: 75px;
