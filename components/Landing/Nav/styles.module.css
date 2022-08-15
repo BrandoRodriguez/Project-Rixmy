@@ -80,7 +80,7 @@
   line-height: 35px;
   font-weight: 600;
   width: 70%;
-  max-width: 370px;
+  max-width: 400px;
   margin-left: 100px;
 }
 
@@ -104,7 +104,7 @@
   position: relative;
   padding-right: 10px;
   font-size: 34px;
-  line-height: 5rem;
+  line-height: 4rem;
 }
 
 #menuNav span {
@@ -194,6 +194,6 @@
   }
 
   #menuNav a {
-    font-size: 24px;
+    font-size: 20px;
   }
 }
