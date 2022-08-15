@@ -7,7 +7,7 @@ import styles from './styles.module.css';
 
 function ArticleDescription({ article }) {
 
-   const {attributes} = article
+    const { attributes } = article
 
     const imageUrl = getStrapiMedia(attributes.image)
 
@@ -15,29 +15,29 @@ function ArticleDescription({ article }) {
         <>
 
             <section className={styles.blog_single}>
-                <div className={styles.blog_single_banner} style= {{
+                <div className={styles.blog_single_banner} style={{
                     background: `url(${imageUrl}) no-repeat center center/cover`
                 }}>
                     <div className={styles.overlay}></div>
                     <div className={styles.banner_content}>
-                        <h1>{attributes.tittle}</h1>
-                        <p>by: <span className={styles.author}><a href="">Theme Builder</a> / </span><span className="date"><a href="">12 jan,
-                            2020</a></span></p>
+                        <h1>{attributes.title}</h1>
+                        <p>by: <span className={styles.author}><a href="">Autor Builder</a> / </span><span className="date"><a href="">12 Agosto,
+                            2022</a></span></p>
                     </div>
                 </div>
+                <div className={styles.single_content}>
+                    <ReactMarkdown
+                        rehypePlugins={[rehypeRaw]}
+                        // eslint-disable-next-line react/no-children-prop
+                        children={article.attributes.content}
+                    />
+                </div>
+
+                {/* <Moment format="MMM Do YYYY">
+                    {article.attributes.published_at}
+                </Moment> */}
             </section>
 
-            {/* <img src={imageUrl} alt="" />
-
-            <ReactMarkdown
-                rehypePlugins={[rehypeRaw]}
-                // eslint-disable-next-line react/no-children-prop
-                children={article.attributes.content}
-            />
-
-            <Moment format="MMM Do YYYY">
-                {article.attributes.published_at}
-            </Moment> */}
         </>
     )
 }

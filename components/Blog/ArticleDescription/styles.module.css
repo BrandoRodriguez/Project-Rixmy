@@ -1,15 +1,18 @@
-.blog-single-banner {
+.blog_single {
+    background-color: #fff;
+}
+
+.blog_single_banner {
     height: 650px;
     position: relative;
     display: flex;
     flex-flow: column;
     align-items: center;
     justify-content: center;
-    z-index: -1;
 }
 
 @media (max-width: 575px) {
-    .blog-single-banner {
+    .blog_single_banner {
         height: 340px;
         padding: 100px 0 80px;
     }
@@ -27,44 +30,53 @@
     background: rgba(20, 21, 25, 0.8);
 }
 
-.banner-content {
+.banner_content {
     text-align: center;
-    max-width: 700px;
+    max-width: 1000px;
     position: relative;
     z-index: 1;
 }
 
-.banner-content h1 {
+.banner_content h1 {
     color: #fff;
-    font-size: 45px;
+    font-size: 25px;
+    line-height: 2rem;
+    font-weight: 900;
 }
 
-.banner-content p a,
-.banner-content p {
+.banner_content p a,
+.banner_content p {
     color: #f43534;
     text-transform: capitalize;
     font-size: 17px;
     margin-top: 24px;
 }
 
-.single-content {
-    padding: 110px 0 30px;
-    max-width: 1000px;
+.single_content {
+    padding: 50px 20px;
+    max-width: 100%;
     margin: 0 auto;
     text-align: justify;
     position: relative;
 }
 
-.single-content p {
-    margin-bottom: 25px;
+.single_content h1 {
+    font-size: 30px;
 }
 
-.single-content img {
+
+.single_content p {
+    padding-top: 20px;
+    padding-bottom: 25px;
+    font-size: 17px;
+}
+
+.single_content img {
     width: 100%;
     margin-bottom: 25px;
 }
 
-.single-content blockquote {
+.single_content blockquote {
     background: #18191d;
     padding: 25px 40px;
     position: relative;
@@ -74,16 +86,39 @@
     margin-bottom: 25px;
 }
 
-.single-content blockquote h4 {
+.single_content blockquote h4 {
     font-style: italic;
     font-weight: 400;
 }
 
-.single-content blockquote .author {
+.single_content blockquote .author {
     text-transform: capitalize;
     font-size: 18px;
     margin-top: 23px;
     display: block;
     text-align: right;
     color: #f43534;
+}
+
+.container {
+    width: 100%;
+    padding: 0 20px;
+    margin: auto;
+}
+
+@media (min-width: 1024px) {
+    .single_content {
+        padding: 110px 0 30px;
+        max-width: 1000px;
+        margin: 0 auto;
+        text-align: justify;
+        position: relative;
+    }
+
+    .banner_content h1 {
+        color: #fff;
+        font-size: 50px;
+        line-height: 3.5rem;
+        font-weight: 900;
+    }
 }
