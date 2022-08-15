@@ -7,10 +7,10 @@ export default function NewSlider({ contents, controls, autoplay, speed, interva
     return (
         <>
             <Slideshow
-            // controls={controls}
-            // autoplay={autoplay}
-            // speed={speed}
-            // interval={interval}
+                controls={controls}
+                autoplay={autoplay}
+                speed={speed}
+                interval={interval}
             >
                 {
                     contents.map((content, index) => {
