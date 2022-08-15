@@ -19,7 +19,7 @@ function NavDisplay({ state }) {
           </span> */}
         </li>
         <li className={styles.dropdown}>
-          <Link href={'/about-us'}>
+          <Link href={'/about'}>
             <a>NOSOTROS</a>
           </Link>
         </li>

@@ -9,7 +9,11 @@
 
 #presentation video {
   width: 100%;
-  padding-top: 60px;
+  margin-bottom: -15px;
+}
+
+.none1 {
+  display: none;
 }
 
 .video_presentation::after {
@@ -53,4 +57,19 @@
   padding: 4px 12px;
   margin-bottom: 45px;
   display: inline-block;
+}
+
+@media (min-width: 1024px) {
+  #presentation video {
+    width: 100%;
+    margin-bottom: -15px
+  }
+
+  .none {
+    display: none;
+  }
+
+  .none1 {
+    display: block;
+  }
 }

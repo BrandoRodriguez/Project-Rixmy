@@ -2,14 +2,14 @@
 import Sections from '../components/Landing/Sections'
 import Video from '../components/Landing/Video'
 import Layout from '../components/Layout';
-import {home} from '../data/home'
+import { home } from '../data/home'
 
 const Home = () => {
   return (
     <>
       <Layout>
-        {/* <Video /> */}
-        <Sections pageData={home}/>
+        <Video />
+        <Sections pageData={home} />
       </Layout>
     </>
   )
