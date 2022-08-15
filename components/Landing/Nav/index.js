@@ -93,7 +93,9 @@ function Nav() {
 
           </li>
           <li className={styles.contact}>
-            <a href="#">CONTÁCTANOS</a>
+            <Link href='/contact'>
+              <a>CONTÁCTANOS</a>
+            </Link>
           </li>
         </ul>
       </nav>

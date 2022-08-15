@@ -69,7 +69,7 @@ function Form() {
                             placeholder="Location"
                         />
                     </label>
-                    <textarea name="comment" id="comment" defaultValue={"Comment"} />
+                    <textarea placeholder='Comment' name="comment" id="comment" />
                     <button type="submit">CONTACT</button>
                 </form>
             </div>
