@@ -3,7 +3,7 @@ import Slideshow from '../Slideshow'
 import Slide from '../Slide';
 
 export default function NewSlider({ contents, controls, autoplay, speed, interval }) {
-    
+
     return (
         <>
             <Slideshow
@@ -15,7 +15,7 @@ export default function NewSlider({ contents, controls, autoplay, speed, interva
                 {
                     contents.map((content, index) => {
                         return (
-                            <Slide content={content} key= {index}/>
+                            <Slide content={content} key={index} />
                         )
                     })
                 }

@@ -19,8 +19,28 @@ export const home = [
             }
         ]
     },
+    // {
+    //     type: 'section',
+    //     contents: [
+    //         {
+    //             id: 'services',
+    //             href: '#',
+    //             section: 'SERVICIOS',
+    //             title: '¿Qué ofrecemos?',
+    //             description: 'Nuestros servicios se adecúan a la actualidad y parten de los pilares fundamentales de Inbound Marketing. El objetivo de Rixmy es que tu empresa a través de estrategias inteligentes, tenga la capacidad de atraer, convertir, cerrar y deleitar a tus clientes.',
+    //             anchor: 'OUR SERVICES',
+    //             style: {
+    //                 class: '',
+    //                 background: 'sections/services.jpg',
+    //                 position: 'center',
+    //                 content_padding_top: '',
+    //                 content_padding_bottom: 'padding_bottom'
+    //             }
+    //         }
+    //     ]
+    // },
     {
-        type: 'section',
+        type: 'slider',
         contents: [
             {
                 id: 'services',
@@ -30,66 +50,27 @@ export const home = [
                 description: 'Nuestros servicios se adecúan a la actualidad y parten de los pilares fundamentales de Inbound Marketing. El objetivo de Rixmy es que tu empresa a través de estrategias inteligentes, tenga la capacidad de atraer, convertir, cerrar y deleitar a tus clientes.',
                 anchor: 'OUR SERVICES',
                 style: {
-                    class: '',
+                    background: 'sections/services.jpg',
+                    position: 'center',
+                    content_padding_top: '',
+                    content_padding_bottom: 'padding_bottom'
+                }
+            },
+            {
+                id: 'services',
+                href: '#',
+                section: 'SERVICIOS',
+                title: '¿Qué ofrecemos?',
+                description: 'Nuestros servicios se adecúan a la actualidad y parten de los pilares fundamentales de Inbound Marketing. El objetivo de Rixmy es que tu empresa a través de estrategias inteligentes, tenga la capacidad de atraer, convertir, cerrar y deleitar a tus clientes.',
+                anchor: 'OUR SERVICES',
+                style: {
                     background: 'sections/services.jpg',
                     position: 'center',
                     content_padding_top: '',
                     content_padding_bottom: 'padding_bottom'
                 }
             }
-        ]
-    },
-    {
-        type: 'slider',
-        contents: [
-            {
-                id: '',
-                href: '#',
-                section: '',
-                title: 'Evolve with us',
-                description: "We have the youth, experience and constant preparation to be avant-garde in the digital area. For this reason, we can offer our clients a quality service, according to their needs and expectations. Empathy with our clients allows us to obtain a situational analysis that effectively addresses the problem at its root.",
-                anchor: '',
-                style: {
-                    background: 'sections/evolve_with_us.jpg',
-                    position: 'center',
-                }
-            },
-            {
-                id: '',
-                href: '#',
-                section: '',
-                title: 'Evolve with us',
-                description: "We have the youth, experience and constant preparation to be avant-garde in the digital area. For this reason, we can offer our clients a quality service, according to their needs and expectations. Empathy with our clients allows us to obtain a situational analysis that effectively addresses the problem at its root.",
-                anchor: '',
-                style: {
-                    background: 'sections/crisis.jpg',
-                    position: 'center',
-                }
-            },
-            {
-                id: '',
-                href: '#',
-                section: '',
-                title: 'Evolve with us',
-                description: "We have the youth, experience and constant preparation to be avant-garde in the digital area. For this reason, we can offer our clients a quality service, according to their needs and expectations. Empathy with our clients allows us to obtain a situational analysis that effectively addresses the problem at its root.",
-                anchor: '',
-                style: {
-                    background: 'sections/new_challenges_motivate_us.jpg',
-                    position: 'center',
-                }
-            },
-            {
-                id: '',
-                href: '#',
-                section: '',
-                title: 'Evolve with us',
-                description: "We have the youth, experience and constant preparation to be avant-garde in the digital area. For this reason, we can offer our clients a quality service, according to their needs and expectations. Empathy with our clients allows us to obtain a situational analysis that effectively addresses the problem at its root.",
-                anchor: '',
-                style: {
-                    background: 'sections/expectations.jpg',
-                    position: 'center',
-                }
-            }
+
         ]
     },
     {

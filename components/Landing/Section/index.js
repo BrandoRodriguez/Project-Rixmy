@@ -3,7 +3,7 @@ import styles from './styles.module.css'
 import ArrowRight from '../Icons/ArrowRight'
 
 function Section({ data }) {
-  
+
   return (
     <section
       className={`${styles.article}  ${styles[data.style.class]} `}>

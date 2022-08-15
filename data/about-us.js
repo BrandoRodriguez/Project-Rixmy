@@ -202,14 +202,14 @@ export const about_us = [
                             subtitle: 'Captamos las oportunidades',
                             description: "Ayudamos a nuestros clientes a captar las oportunidades a través de nuestras herramientas tecnológicas y de marketing."
                         },
-                        {
-                            subtitle: 'Nos conectamos con tu target',
-                            description: "A través de nosotros estarás más conectado con tus clientes."
-                        },
-                        {
-                            subtitle: 'Crecemos junto a ti',
-                            description: "Somos tu compañía en todo tu proceso de evolución."
-                        }
+                        // {
+                        //     subtitle: 'Nos conectamos con tu target',
+                        //     description: "A través de nosotros estarás más conectado con tus clientes."
+                        // },
+                        // {
+                        //     subtitle: 'Crecemos junto a ti',
+                        //     description: "Somos tu compañía en todo tu proceso de evolución."
+                        // }
                     ]
                 }
             }
