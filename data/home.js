@@ -19,26 +19,6 @@ export const home = [
             }
         ]
     },
-    // {
-    //     type: 'section',
-    //     contents: [
-    //         {
-    //             id: 'services',
-    //             href: '#',
-    //             section: 'SERVICIOS',
-    //             title: '¿Qué ofrecemos?',
-    //             description: 'Nuestros servicios se adecúan a la actualidad y parten de los pilares fundamentales de Inbound Marketing. El objetivo de Rixmy es que tu empresa a través de estrategias inteligentes, tenga la capacidad de atraer, convertir, cerrar y deleitar a tus clientes.',
-    //             anchor: 'OUR SERVICES',
-    //             style: {
-    //                 class: '',
-    //                 background: 'sections/services.jpg',
-    //                 position: 'center',
-    //                 content_padding_top: '',
-    //                 content_padding_bottom: 'padding_bottom'
-    //             }
-    //         }
-    //     ]
-    // },
     {
         type: 'slider',
         contents: [
