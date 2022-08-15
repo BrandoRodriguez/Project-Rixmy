@@ -56,7 +56,7 @@
 
 .article p {
   font-family: "Montserrat-Regular";
-  font-size: 13px;
+  font-size: 15px;
   line-height: 20px;
   color: rgb(255, 255, 255, .9);
 }
@@ -229,7 +229,7 @@
 }
 
 
-@media (min-width: 1023px) {
+@media (min-width: 1150px) {
   .red_bottom_right::after {
     width: 150px;
     border-top-left-radius: 75px;
@@ -313,7 +313,7 @@
 }
 
 
-@media (min-width: 1400px) {
+@media (min-width: 1600px) {
   .red_bottom_right::after {
     width: 200px;
     border-top-left-radius: 100px;
@@ -407,9 +407,6 @@
     -webkit-mask-image: radial-gradient(circle 10px at 0 0, transparent 0, transparent 170px, black 60px);
   }
 
-
-
-
   .content {
     width: 55%;
     padding-left: 50px;
@@ -423,9 +420,8 @@
   }
 
   .article p {
-    font-size: 16px;
-    line-height: 25px;
-    width: 60%;
+    font-size: 20px;
+    line-height: 30px;
   }
 
 }

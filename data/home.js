@@ -44,7 +44,7 @@ export const home = [
         contents: [
             {
                 id: 'services',
-                href: '#',
+                href: '/services',
                 section: 'SERVICIOS',
                 title: '¿Qué ofrecemos?',
                 description: 'Nuestros servicios se adecúan a la actualidad y parten de los pilares fundamentales de Inbound Marketing. El objetivo de Rixmy es que tu empresa a través de estrategias inteligentes, tenga la capacidad de atraer, convertir, cerrar y deleitar a tus clientes.',
@@ -58,7 +58,7 @@ export const home = [
             },
             {
                 id: 'services',
-                href: '#',
+                href: '/services',
                 section: 'SERVICIOS',
                 title: '¿Qué ofrecemos?',
                 description: 'Nuestros servicios se adecúan a la actualidad y parten de los pilares fundamentales de Inbound Marketing. El objetivo de Rixmy es que tu empresa a través de estrategias inteligentes, tenga la capacidad de atraer, convertir, cerrar y deleitar a tus clientes.',
