@@ -42,6 +42,7 @@
     font-size: 25px;
     line-height: 2rem;
     font-weight: 900;
+    font-family: "Montserrat-Black";
 }
 
 .banner_content p a,
@@ -50,6 +51,7 @@
     text-transform: capitalize;
     font-size: 17px;
     margin-top: 24px;
+    font-family: "Montserrat-Regular";
 }
 
 .single_content {
@@ -62,6 +64,7 @@
 
 .single_content h1 {
     font-size: 30px;
+    font-family: "Montserrat-SemiBold";
 }
 
 
@@ -69,6 +72,8 @@
     padding-top: 20px;
     padding-bottom: 25px;
     font-size: 17px;
+    font-family: "Montserrat-Regular";
+    line-height: 1.5rem;
 }
 
 .single_content img {
@@ -108,7 +113,7 @@
 
 @media (min-width: 1024px) {
     .single_content {
-        padding: 110px 0 30px;
+        padding: 110px 30px;
         max-width: 1000px;
         margin: 0 auto;
         text-align: justify;
