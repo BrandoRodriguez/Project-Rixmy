@@ -52,11 +52,9 @@
   line-height: 42px;
   margin: 25px 0;
   text-transform: uppercase;
-  font-family: "Montserrat-Black";
 }
 
 .article p {
-  font-family: "Montserrat-Regular";
   font-size: 15px;
   line-height: 20px;
   color: rgb(255, 255, 255, .9);
@@ -65,7 +63,6 @@
 }
 
 .article a {
-  font-family: "Montserrat-SemiBold";
   color: #fff;
   margin-top: 25px;
   font-size: 15px;
@@ -229,7 +226,6 @@
 
   .h2 {
     font-size: 30px;
-    font-family: "Montserrat-Black";
     text-transform: uppercase;
   }
 
@@ -243,7 +239,6 @@
 
   .content_flex1 h3 {
     font-size: 18px;
-    font-family: "Montserrat-Black";
     text-transform: uppercase;
   }
 
@@ -321,7 +316,6 @@
 
   .h2 {
     font-size: 40px;
-    font-family: "Montserrat-Black";
     text-transform: uppercase;
   }
 
@@ -335,7 +329,6 @@
 
   .content_flex1 h3 {
     font-size: 24px;
-    font-family: "Montserrat-Black";
     text-transform: uppercase;
   }
 

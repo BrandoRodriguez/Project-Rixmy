@@ -9,7 +9,7 @@ export const home = [
                 section: 'NOSOTROS',
                 title: 'Nos enfocamos en las oportunidades de crecimiento para tu negocio.',
                 description: 'En medio de una crisis global, nuestro equipo de profesionales a través de las estrategias de Inbound Marketing y la metodología de Rixmy posee las herramientas para superar tus expectativas.',
-                anchor: 'Bienvenido a Rixmy',
+                anchor: 'BIENVENIDO A RIXMY',
                 style: {
                     class: 'red_bottom_right',
                     circle: 'circle',

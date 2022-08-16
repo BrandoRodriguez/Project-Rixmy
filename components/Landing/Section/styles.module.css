@@ -108,7 +108,6 @@
 }
 
 .article span {
-  font-family: "Montserrat-Medium";
   font-size: 14px;
   letter-spacing: .1rem;
   text-transform: uppercase;
@@ -119,24 +118,22 @@
   line-height: 42px;
   margin: 25px 0;
   text-transform: uppercase;
-  font-family: "Montserrat-Black";
 }
 
 .article p {
-  font-family: "Montserrat-Regular";
   font-size: 15px;
   line-height: 20px;
   color: rgb(255, 255, 255, .9);
 }
 
 .article a {
-  font-family: "Montserrat-SemiBold";
   color: #fff;
   margin-top: 25px;
   font-size: 15px;
   gap: 7px;
   display: flex;
   align-items: center;
+  font-weight: 600;
 }
 
 .flex_between {

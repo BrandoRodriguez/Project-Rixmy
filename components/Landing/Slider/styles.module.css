@@ -41,7 +41,6 @@
 }
 
 .article span {
-  font-family: "Montserrat-Medium";
   font-size: 14px;
   letter-spacing: .1rem;
 }
@@ -51,18 +50,15 @@
   line-height: 45px;
   margin: 25px 0;
   text-transform: uppercase;
-  font-family: "Montserrat-Black";
 }
 
 .article p {
-  font-family: "Montserrat-Regular";
   font-size: 15px;
   line-height: 20px;
   color: rgb(255, 255, 255, .9);
 }
 
 .article a {
-  font-family: "Montserrat-SemiBold";
   color: #fff;
   margin-top: 20px;
   font-weight: 600;
