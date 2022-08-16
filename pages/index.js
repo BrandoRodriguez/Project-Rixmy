@@ -8,7 +8,7 @@ const Home = () => {
   return (
     <>
       <Layout>
-        <Video />
+        {/* <Video /> */}
         <Sections pageData={home} />
       </Layout>
     </>
